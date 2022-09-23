@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=2825;
+		nextID=2830;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=100;
+		nextID=108;
 	};
 	class Camera
 	{
-		pos[]={20.60029,36.434662,17772.027};
-		dir[]={0.36558497,-0.41304314,0.83411223};
-		up[]={0.16580702,0.91071141,0.3783024};
-		aside[]={0.91589069,0,-0.40142787};
+		pos[]={25.766487,34.849861,17812.309};
+		dir[]={-0.51361698,-0.27131483,0.81404626};
+		up[]={-0.14479513,0.96247745,0.2294879};
+		aside[]={0.84576827,3.9499719e-007,0.53363281};
 	};
 };
 binarizationWanted=0;
@@ -73,6 +73,7 @@ addons[]=
 	"CUP_Editor_Structures_Config",
 	"A3_Ui_F",
 	"A3_Modules_F_Intel",
+	"A3_Data_F_Curator_Virtual",
 	"A3_Characters_F",
 	"A3_Characters_F_Exp_Civil"
 };
@@ -80,7 +81,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=24;
+		items=25;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -234,6 +235,13 @@ class AddonsMetaData
 		};
 		class Item23
 		{
+			className="A3_Data_F_Curator";
+			name="Arma 3 Zeus Update - Main Configuration";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item24
+		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
@@ -305,7 +313,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=66;
+		items=59;
 		class Item0
 		{
 			dataType="Layer";
@@ -325,9 +333,10 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14.151,24.208372,17844.389};
-				angles[]={0.093026049,0,6.2445264};
+				position[]={9.5220003,23.07638,17856.375};
+				angles[]={0.090757117,0,0.013648475};
 			};
+			name="zeus_module";
 			id=992;
 			type="ModuleCurator_F";
 			class CustomAttributes
@@ -341,7 +350,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="zeus";
+							value="zeus_slot";
 						};
 					};
 				};
@@ -367,7 +376,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="";
+							value="Zeus";
 						};
 					};
 				};
@@ -2116,6 +2125,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				textures="Blue";
 				disableSimulation=1;
 			};
 			id=2116;
@@ -2124,19 +2134,6 @@ class Mission
 			class CustomAttributes
 			{
 				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[[[[""FirstAidKit""],[1]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute1
 				{
 					property="allowDamage";
 					expression="_this allowdamage _value;";
@@ -2149,7 +2146,90 @@ class Mission
 						};
 					};
 				};
-				nAttributes=2;
+				class Attribute1
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Blue";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="ClanLogo_Hide";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[1]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=3;
 			};
 		};
 		class Item6
@@ -8798,754 +8878,6 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={8.1289997,23.051167,17895.531};
-				angles[]={6.2718058,0,6.2809162};
-			};
-			name="faction_info";
-			id=2810;
-			type="ModuleCreateDiaryRecord_F";
-			atlOffset=1.9073486e-006;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCreateDiaryRecord_F_PresetTitle";
-					expression="_this setVariable ['PresetTitle',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Situation";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCreateDiaryRecord_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Загальна інформація";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCreateDiaryRecord_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Ставлення фракції до вас визначатиме їх реакцію на вашу присутність.";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCreateDiaryRecord_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCreateDiaryRecord_F_Subject";
-					expression="_this setVariable ['Subject',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Фракції";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item56
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={8.2819996,23.005852,17888.189};
-				angles[]={6.2809162,0,6.2740746};
-			};
-			name="faction_info_civilian";
-			id=2811;
-			type="ModuleCreateDiaryRecord_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCreateDiaryRecord_F_PresetTitle";
-					expression="_this setVariable ['PresetTitle',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Situation";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCreateDiaryRecord_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Цивільні";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCreateDiaryRecord_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Ставлення: <font color='#FFFF00'>нейтральне</font color><br/>" \n "<img image='civilians.jpg' width=""200""/><br/>" \n "Цивільні - це найнижча ланка харчового ланцюга. Це їх благословення і їх прокляття. З них вимагають данину. Але крадіжка у цивільних, а тим більше їх вбивство вважається універсальним злочином серед усіх фракцій, через що подібними речами майже ніхто не займається. Різноманітні угруповання, як правило, воюють виключно між собою за право збирати данину. Тих хто заходить за межі занадто далеко і нищать кормову базу із цивільних швидко і безапеляційно нищать всі без виключення.";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCreateDiaryRecord_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCreateDiaryRecord_F_Subject";
-					expression="_this setVariable ['Subject',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Фракції";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item57
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={8.4350004,23.03676,17880.848};
-				angles[]={0.0090931654,0,6.2695365};
-			};
-			name="faction_info_army";
-			id=2812;
-			type="ModuleCreateDiaryRecord_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCreateDiaryRecord_F_PresetTitle";
-					expression="_this setVariable ['PresetTitle',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Situation";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCreateDiaryRecord_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Армія";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCreateDiaryRecord_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Ставлення: <font color='#FFFF00'>нейтральне</font color><br/>" \n "<img image='army.jpg' width=""200""/><br/>" \n "Найвища ланка харчового ланцюга. Їх військова міць, вишкіл та матеріальна база дозволяють придушити будь-кого. Участь в цій структурі вважається найвищим щаблем кар'єри в країні.<br/>" \n "<br/>" \n "З вторгненням військ сусідньої недружньої країни баланс сил почав дещо зміщуватися.";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCreateDiaryRecord_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCreateDiaryRecord_F_Subject";
-					expression="_this setVariable ['Subject',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Фракції";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item58
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={8.4350004,22.714296,17866.775};
-				angles[]={6.2581573,0,0.0091106193};
-			};
-			name="faction_info_trashers";
-			id=2813;
-			type="ModuleCreateDiaryRecord_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCreateDiaryRecord_F_PresetTitle";
-					expression="_this setVariable ['PresetTitle',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Situation";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCreateDiaryRecord_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Непотріб";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCreateDiaryRecord_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Ставлення: <font color='#FF0000'>вороже</font color><br/>" \n "<img image='trashers.jpg' width=""200""/><br/>" \n "Зборище на рідкість тупих, відбитих покидьків яких ненавидять, вбивають і гноблять тупо всі. Відповідно, вони також стріляють і нищать усе що бачать. Крім цивільних. Але не гребують крадіжками. Тягнуть все до чого можуть дотягнутися і що погано лежить, потім продають всім хто готовий придбати. В основному, складаються з дезертирів армії вторгнення сусідньої держави, але якихось особливих стосунків з нею не мають.";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCreateDiaryRecord_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCreateDiaryRecord_F_Subject";
-					expression="_this setVariable ['Subject',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Фракції";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item59
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={8.4350004,22.953325,17873.658};
-				angles[]={6.2445264,0,6.2422571};
-			};
-			name="faction_info_police";
-			id=2814;
-			type="ModuleCreateDiaryRecord_F";
-			atlOffset=-1.9073486e-006;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCreateDiaryRecord_F_PresetTitle";
-					expression="_this setVariable ['PresetTitle',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Situation";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCreateDiaryRecord_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Поліція";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCreateDiaryRecord_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Ставлення: <font color='#FFFF00'>нейтральне</font color><br/>" \n "<img image='police.jpg' width=""200""/><br/>" \n "Щось середнє між армією і цивільними. Мають більш тісні зв'язки з цивільними ніж армія.";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCreateDiaryRecord_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCreateDiaryRecord_F_Subject";
-					expression="_this setVariable ['Subject',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Фракції";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item60
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={16.086,22.920858,17895.838};
-				angles[]={6.2786474,0,6.2740746};
-			};
-			id=2816;
-			type="ModuleCreateDiaryRecord_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCreateDiaryRecord_F_PresetTitle";
-					expression="_this setVariable ['PresetTitle',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Situation";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCreateDiaryRecord_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Ситуація";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCreateDiaryRecord_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Неназвана країна зав'язла в корупції а влада втратила легітимність.<br/>" \n "<br/>" \n "За кілька десятиліть країна перетворилася на анархію де править сильніший. Армія та поліція, фактично, перетворилися на Приватні Військові Компанії. А цивільні стали цінним ресурсом.<br/>" \n "<br/>" \n "Постійна конкуренція за території та вплив знищили державу в звичному її розумінні. Але на її місці народилися нові утворення і свої закони.<br/>" \n "<br/>" \n "Вам набридло бути харчовою базою для безлічі різноманітних фракцій та угруповань. Ви вирішили взяти зброю і власне життя в свої руки та організувати опір хаосу що розгорнувся навколо.";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCreateDiaryRecord_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCreateDiaryRecord_F_Subject";
-					expression="_this setVariable ['Subject',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Брифінг";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item61
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={15.914,22.896536,17888.479};
-				angles[]={0,0,6.2672682};
-			};
-			id=2817;
-			type="ModuleCreateDiaryRecord_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCreateDiaryRecord_F_PresetTitle";
-					expression="_this setVariable ['PresetTitle',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Situation";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCreateDiaryRecord_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Правила";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCreateDiaryRecord_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="* Взаємна повага. <br/><br/>" \n "* Відкриття сервера в день анонса о 18:00. Покидати базу до 19:00 заборонено. Закриття сервера по виконанню місії або о 22:00. <br/><br/>" \n "* Мінімум не-рольової поведінки. Саундпади, ригання, ігровий сленг ""боти"", ""лут"" і інше будь ласочка лісом. <br/><br/>" \n "* Заборонено покидати зону бойових дій (відмічена червоною лінією)." \n "* Робити в грі можна все що завгодно, лутати що завгодно і як завгодно, але зважайте що ваші дії та зовнішній вигляд можуть і будуть впливати на події та сприйняття вас іншими персонажами.<br/><br/>";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCreateDiaryRecord_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCreateDiaryRecord_F_Subject";
-					expression="_this setVariable ['Subject',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Брифінг";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item62
-		{
-			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13.951133,25.153009,17808.738};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						name="zeus";
-						description="DiRaven";
-						isPlayer=1;
-					};
-					id=2819;
-					type="C_man_1";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male06GRE";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.98000002;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="hideObject";
-							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=2818;
-		};
-		class Item63
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={16.157,22.877651,17881.053};
-				angles[]={6.2809162,0,6.2672682};
-			};
-			id=2820;
-			type="ModuleCreateDiaryRecord_F";
-			atlOffset=-1.9073486e-006;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCreateDiaryRecord_F_PresetTitle";
-					expression="_this setVariable ['PresetTitle',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Situation";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCreateDiaryRecord_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Задача";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCreateDiaryRecord_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Непотріб почав активно красти та вивозити техніку з навколишніх сіл." \n "" \n "Задача: Повенути вкрадену техніку на свою базу.";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCreateDiaryRecord_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCreateDiaryRecord_F_Subject";
-					expression="_this setVariable ['Subject',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Брифінг";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item64
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
 				position[]={1079.51,22.080595,16830.766};
 				angles[]={6.2740922,0,0.036390115};
 			};
@@ -9700,7 +9032,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item65
+		class Item56
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -9858,6 +9190,76 @@ class Mission
 				};
 				nAttributes=11;
 			};
+		};
+		class Item57
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9.7076635,23.155861,17855.541};
+				angles[]={0.093018748,0,0.011378167};
+			};
+			name="zeus_slot";
+			isPlayer=1;
+			id=2827;
+			type="VirtualCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="TFAR_freq_lr";
+					expression="if !(_value isEqualTo []) then {_value=[str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput;_this setVariable ['TFAR_freq_lr',_value,true];}";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="TFAR_freq_sr";
+					expression="if !(_value isEqualTo []) then {_value=[str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput;_this setVariable ['TFAR_freq_sr',_value,true];}";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item58
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={12.646726,25.153009,17810.145};
+						angles[]={0,3.451735,-0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=2829;
+					type="C_man_1";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2828;
 		};
 	};
 };
