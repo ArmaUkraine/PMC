@@ -1,0 +1,44 @@
+class CfgFunctions {
+    #include "modules\grad-persistence\cfgFunctions.hpp"
+};
+
+class CfgGradPersistence {
+    // missionTag = "my_persistent_mission";
+    loadOnMissionStart = 1;
+    missionWaitCondition = "true";
+    playerWaitCondition = "true";
+
+    saveUnits = 2; // Save all objects.
+    saveVehicles = 3; // Save except editor-placed vehicles.
+    saveContainers = 3; // Save except editor-placed containers.
+    saveStatics = 0; // Don't save statics.
+    saveGradFortificationsStatics = 0; // Don't save grad fortifications.
+    saveMarkers = 2; // Save all markers.
+    saveTasks = 0; // Don't save tasks.
+    saveTriggers = 0; // Don't save triggers.
+
+    savePlayerInventory = 1;
+    savePlayerDamage = 0;
+    savePlayerPosition = 1;
+    savePlayerMoney = 1;
+
+    saveTeamAccounts = 0;
+
+    // blacklist[] = {
+    //     "B_Truck_01_mover_F",
+    //     "MapBoard_seismic_F"
+    // };
+
+    class customVariables {
+        class var1 {
+            varName = "mcd_myVariable_test";
+            varNamespace = "mission";
+            public = 0;
+        };
+        class var2 {
+            varName = "mcd_myPublicVariableOnAUnit_test";
+            varNamespace = "unit";
+            public = 1;
+        };
+    };
+};
