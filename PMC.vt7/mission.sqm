@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=124;
+		nextID=148;
 	};
 	class Camera
 	{
-		pos[]={2.093097,41.038761,17816.055};
-		dir[]={0.8237263,-0.56623274,-0.029800048};
-		up[]={0.56586295,0.82424223,-0.020471115};
-		aside[]={-0.036153238,-1.9630352e-007,-0.99936032};
+		pos[]={97.193588,28.317625,17724.049};
+		dir[]={0.89385128,-0.41665515,0.16582857};
+		up[]={0.40968448,0.90904903,0.076004952};
+		aside[]={0.18241455,8.58563e-009,-0.98325431};
 	};
 };
 binarizationWanted=0;
@@ -73,7 +73,6 @@ addons[]=
 	"CUP_Editor_Structures_Config",
 	"A3_Ui_F",
 	"A3_Modules_F_Intel",
-	"A3_Data_F_Curator_Virtual",
 	"A3_Characters_F",
 	"A3_Characters_F_Exp_Civil"
 };
@@ -81,7 +80,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=24;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -235,13 +234,6 @@ class AddonsMetaData
 		};
 		class Item23
 		{
-			className="A3_Data_F_Curator";
-			name="Arma 3 Zeus Update - Main Configuration";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item24
-		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
@@ -270,7 +262,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -287,7 +279,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -442,7 +434,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=59;
+		items=58;
 		class Item0
 		{
 			dataType="Layer";
@@ -7242,7 +7234,7 @@ class Mission
 					};
 					id=2642;
 					type="Land_Bandage_F";
-					atlOffset=0.52599144;
+					atlOffset=0.50408745;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7278,7 +7270,7 @@ class Mission
 					};
 					id=2643;
 					type="Land_Bandage_F";
-					atlOffset=0.53232574;
+					atlOffset=0.51042175;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7442,7 +7434,7 @@ class Mission
 				};
 			};
 			id=2648;
-			atlOffset=0.3597374;
+			atlOffset=0.35871124;
 		};
 		class Item31
 		{
@@ -9321,46 +9313,6 @@ class Mission
 		};
 		class Item57
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={10.806466,23.131807,17855.959};
-				angles[]={0.090762161,0,0.013650165};
-			};
-			isPlayer=1;
-			id=2827;
-			type="VirtualCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="TFAR_freq_lr";
-					expression="if !(_value isEqualTo []) then {_value=[str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput;_this setVariable ['TFAR_freq_lr',_value,true];}";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="TFAR_freq_sr";
-					expression="if !(_value isEqualTo []) then {_value=[str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput;_this setVariable ['TFAR_freq_sr',_value,true];}";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item58
-		{
 			dataType="Group";
 			side="Civilian";
 			class Entities
@@ -9371,16 +9323,74 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12.646726,25.153009,17810.145};
-						angles[]={0,3.451735,0};
+						position[]={101.487,26.0357,17725.391};
+						angles[]={0,0.54817104,-0};
 					};
 					side="Civilian";
 					flags=7;
 					class Attributes
 					{
+						description="DiRaven";
+						isPlayer=1;
 					};
 					id=2829;
 					type="C_man_1";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						nAttributes=4;
+					};
 				};
 			};
 			class Attributes
