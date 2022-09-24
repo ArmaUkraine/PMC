@@ -17,8 +17,6 @@ with open("preset.html") as fh:
         mod_name = tr.find_all("td")[0].text
         mod_names.append(mod_name)
 
-    # Copy keys.
-
     # Prepare list of mods.
     MODS = [f"p:\\workshop\@{x}" for x in mod_names]
     pprint.pprint(MODS)
