@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=2831;
+		nextID=2832;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=132;
+		nextID=148;
 	};
 	class Camera
 	{
-		pos[]={128.05792,78.239174,17720.451};
-		dir[]={-0.19516642,-0.70282447,0.68410897};
-		up[]={-0.19281211,0.71135724,0.67585707};
-		aside[]={0.96165919,-4.9569644e-007,0.27434838};
+		pos[]={15.36276,31.05464,17820.275};
+		dir[]={0.54480386,-0.11343887,-0.83086187};
+		up[]={0.062201418,0.99354565,-0.09486147};
+		aside[]={-0.83625835,4.6566129e-009,-0.54834294};
 	};
 };
 binarizationWanted=0;
@@ -13979,7 +13979,20 @@ class CustomAttributes
 				};
 			};
 		};
-		nAttributes=1;
+		class Attribute1
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=1;
+				};
+			};
+		};
+		nAttributes=2;
 	};
 };
 class Mission
@@ -13987,13 +14000,14 @@ class Mission
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
+		startWeather=0.20451282;
 		startWind=0.1;
 		startWaves=0.1;
-		forecastWeather=0.30000001;
+		forecastWeather=0.19606833;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
+		rainForced=1;
 		wavesForced=1;
 		windForced=1;
 		year=2015;
@@ -21101,13 +21115,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12.10854,25.200329,17823.715};
-						angles[]={0.0091022542,2.5416706,6.2399812};
+						position[]={12.109,25.200306,17823.715};
+						angles[]={0.0091106193,2.5416706,6.2399883};
 					};
 					side="Independent";
 					flags=6;
 					class Attributes
 					{
+						name="test2";
 						description="Побратим (Медик)";
 						isPlayable=1;
 						class Inventory
@@ -21116,6 +21131,7 @@ class Mission
 					};
 					id=2740;
 					type="I_L_Looter_SMG_F";
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21178,6 +21194,7 @@ class Mission
 			{
 			};
 			id=2739;
+			atlOffset=-1.9073486e-006;
 		};
 		class Item33
 		{
@@ -21191,13 +21208,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11.648578,25.210564,17824.775};
-						angles[]={0.0091022542,2.5416706,6.2399812};
+						position[]={11.649,25.210543,17824.775};
+						angles[]={0.0091106193,2.5416706,6.2399883};
 					};
 					side="Independent";
 					flags=6;
 					class Attributes
 					{
+						name="test1";
 						description="Побратим (Медик)";
 						isPlayable=1;
 						class Inventory
@@ -21206,6 +21224,7 @@ class Mission
 					};
 					id=2742;
 					type="I_L_Looter_SMG_F";
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21255,6 +21274,7 @@ class Mission
 			{
 			};
 			id=2741;
+			atlOffset=-1.9073486e-006;
 		};
 		class Item34
 		{
@@ -22571,10 +22591,9 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={10.806466,23.131807,17855.959};
+				position[]={12.470271,23.197586,17855.486};
 				angles[]={0.090762161,0,0.013650165};
 			};
-			isPlayer=1;
 			id=2827;
 			type="VirtualCurator_F";
 			class CustomAttributes
@@ -22618,22 +22637,95 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12.646726,25.153009,17810.145};
-						angles[]={0,3.451735,0};
+						position[]={12.647,25.153326,17810.145};
+						angles[]={0,3.4517376,0};
 					};
 					side="Civilian";
 					flags=7;
 					class Attributes
 					{
+						description="DiRaven";
+						isPlayer=1;
 					};
 					id=2829;
 					type="C_man_1";
+					atlOffset=0.00031661987;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="enableStamina";
+							expression="_this enablestamina _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=5;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
 			id=2828;
+			atlOffset=0.00031661987;
 		};
 		class Item57
 		{
