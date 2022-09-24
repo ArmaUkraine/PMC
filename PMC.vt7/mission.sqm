@@ -12,22 +12,22 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=2830;
+		nextID=2832;
 	};
 	class MarkerIDProvider
 	{
-		nextID=6;
+		nextID=7;
 	};
 	class LayerIndexProvider
 	{
-		nextID=148;
+		nextID=156;
 	};
 	class Camera
 	{
-		pos[]={97.193588,28.317625,17724.049};
-		dir[]={0.89385128,-0.41665515,0.16582857};
-		up[]={0.40968448,0.90904903,0.076004952};
-		aside[]={0.18241455,8.58563e-009,-0.98325431};
+		pos[]={-22.002058,81.982971,17746.398};
+		dir[]={0.59430623,-0.51628739,0.61672711};
+		up[]={0.35826394,0.85640019,0.3717787};
+		aside[]={0.72011065,-4.0745363e-009,-0.69393134};
 	};
 };
 binarizationWanted=0;
@@ -72,7 +72,6 @@ addons[]=
 	"A3_Characters_F_Enoch",
 	"CUP_Editor_Structures_Config",
 	"A3_Ui_F",
-	"A3_Modules_F_Intel",
 	"A3_Characters_F",
 	"A3_Characters_F_Exp_Civil"
 };
@@ -262,7 +261,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -279,7 +278,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -434,7 +433,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=58;
+		items=57;
 		class Item0
 		{
 			dataType="Layer";
@@ -8988,330 +8987,12 @@ class Mission
 			fillName="Border";
 			a=1000;
 			b=400;
-			angle=227.07492;
+			angle=227.07498;
 			drawBorder=1;
 			id=2808;
 			atlOffset=-2.7498913;
 		};
 		class Item55
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1079.51,22.080595,16830.766};
-				angles[]={6.2740922,0,0.036390115};
-			};
-			id=2821;
-			type="ModuleTaskCreate_F";
-			atlOffset=1.9073486e-006;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleTaskCreate_F_Destination";
-					expression="_this setVariable ['Destination',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleTaskCreate_F_Type";
-					expression="_this setVariable ['Type',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="car";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleTaskCreate_F_ShowNotification";
-					expression="_this setVariable ['ShowNotification',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleTaskCreate_F_Marker";
-					expression="_this setVariable ['Marker',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleTaskCreate_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Знайти техніку";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ModuleTaskCreate_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Знайти сільськогосподарську техніку.";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ModuleTaskCreate_F_ID";
-					expression="_this setVariable ['ID',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="1";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ModuleTaskCreate_F_AlwaysVisible";
-					expression="_this setVariable ['AlwaysVisible',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="ModuleTaskCreate_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="ModuleTaskCreate_F_State";
-					expression="_this setVariable ['State',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="ASSIGNED";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="ModuleTaskCreate_F_IDParent";
-					expression="_this setVariable ['IDParent',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				nAttributes=11;
-			};
-		};
-		class Item56
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={27.62281,24.199297,17814.232};
-				angles[]={6.2695355,0,6.2286329};
-			};
-			name="task_return";
-			id=2823;
-			type="ModuleTaskCreate_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleTaskCreate_F_Destination";
-					expression="_this setVariable ['Destination',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleTaskCreate_F_Type";
-					expression="_this setVariable ['Type',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="land";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleTaskCreate_F_ShowNotification";
-					expression="_this setVariable ['ShowNotification',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleTaskCreate_F_Marker";
-					expression="_this setVariable ['Marker',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleTaskCreate_F_Title";
-					expression="_this setVariable ['Title',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Повернути техніку";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ModuleTaskCreate_F_Description";
-					expression="_this setVariable ['Description',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Повернути сільськогосподарську техніку.";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ModuleTaskCreate_F_ID";
-					expression="_this setVariable ['ID',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="2";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ModuleTaskCreate_F_AlwaysVisible";
-					expression="_this setVariable ['AlwaysVisible',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="ModuleTaskCreate_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="ModuleTaskCreate_F_State";
-					expression="_this setVariable ['State',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="CREATED";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="ModuleTaskCreate_F_IDParent";
-					expression="_this setVariable ['IDParent',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				nAttributes=11;
-			};
-		};
-		class Item57
 		{
 			dataType="Group";
 			side="Civilian";
@@ -9323,8 +9004,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={101.487,26.0357,17725.391};
-						angles[]={0,0.54817104,-0};
+						position[]={7.9935999,23.414444,17852.48};
+						angles[]={0,0.54817104,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -9397,6 +9078,21 @@ class Mission
 			{
 			};
 			id=2828;
+		};
+		class Item56
+		{
+			dataType="Marker";
+			position[]={24.080999,24.455999,17816.984};
+			name="marker_6";
+			text="База";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorGreen";
+			alpha=0.50007737;
+			a=50;
+			b=50;
+			id=2830;
+			atlOffset=-0.00032043457;
 		};
 	};
 };
