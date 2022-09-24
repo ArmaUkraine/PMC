@@ -24,10 +24,18 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15.36276,31.05464,17820.275};
-		dir[]={0.54480386,-0.11343887,-0.83086187};
-		up[]={0.062201418,0.99354565,-0.09486147};
-		aside[]={-0.83625835,4.6566129e-009,-0.54834294};
+		pos[]={
+			15.36276, 31.05464, 17820.275
+		};
+		dir[]={
+			0.54480386, -0.11343887, -0.83086187
+		};
+		up[]={
+			0.062201418, 0.99354565, -0.09486147
+		};
+		aside[]={
+			-0.83625835, 4.6566129e-009, -0.54834294
+		};
 	};
 };
 binarizationWanted=0;
@@ -78,64 +86,64 @@ addons[]=
 };
 class AddonsMetaData
 {
-	class List
+	class list
 	{
-		items=25;
+		items=24;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item1
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item2
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item3
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item4
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item5
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item6
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="http// ace3mod.com/";
 		};
 		class Item7
 		{
 			className="ace_concertina_wire";
 			name="ACE3 - Concertina Wire";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="http// ace3mod.com/";
 		};
 		class Item8
 		{
@@ -149,7 +157,7 @@ class AddonsMetaData
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item10
 		{
@@ -166,14 +174,14 @@ class AddonsMetaData
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item13
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="http// ace3mod.com/";
 		};
 		class Item14
 		{
@@ -190,35 +198,35 @@ class AddonsMetaData
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item17
 		{
 			className="A3_Structures_F_Kart";
 			name="Arma 3 Karts - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item18
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="http// ace3mod.com/";
 		};
 		class Item19
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item20
 		{
 			className="A3_Characters_F_Enoch";
 			name="Arma 3 Contact Platform - Characters and Clothing";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item21
 		{
@@ -230,21 +238,14 @@ class AddonsMetaData
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 		class Item23
-		{
-			className="A3_Data_F_Curator";
-			name="Arma 3 Zeus Update - Main Configuration";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item24
 		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			url="https// www.arma3.com";
 		};
 	};
 };
@@ -3696,7 +3697,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="GP5_RaspiratorPS,GP5Filter_RaspiratorPS,GP7_RaspiratorPS,GP21_GasmaskPS,SE_S10,G_Respirator_white_F,MASK_M40_OD,MASK_M40,MASK_M50";
+														value="GP5_RaspiratorPS, GP5Filter_RaspiratorPS, GP7_RaspiratorPS, GP21_GasmaskPS, SE_S10, G_Respirator_white_F, MASK_M40_OD, MASK_M40, MASK_M50";
 													};
 												};
 												class Item1
@@ -6126,7 +6127,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="""cup_30rnd_subsonic_545x39_ak_m"",""cup_20rnd_subsonic_545x39_aksu_m"",""cup_30rnd_subsonic_545x39_ak74m_m"",""cup_30rnd_subsonic_545x39_ak74_plum_m"",""cup_30rnd_subsonic_762x39_ak47_m"",""cup_20rnd_subsonic_762x39_amd63_m"",""cup_30rnd_subsonic_762x39_ak47_bakelite_m"",""cup_30rnd_subsonic_762x39_ak103_bakelite_m"",""cup_30rnd_subsonic_762x39_akm_bakelite_desert_m"",""cup_30rnd_subsonic_545x39_fort224_m"",""rhs_30rnd_545x39_7u1_ak"",""rhs_45rnd_545x39_7u1_ak"",""rhs_30rnd_762x39mm_u"",""rhs_30rnd_762x39mm_bakelite_u"",""rhs_30rnd_762x39mm_polymer_u"",""hlc_30rnd_545x39_s_ak"",""hlc_30rnd_545x39_s_ak_plum"",""hlc_30rnd_545x39_s_ak_black"",""hlc_20rnd_762x51_s_fal"",""hlc_10rnd_762x51_s_fal"",""hlc_20rnd_762x51_s_g3""";
+														value="""cup_30rnd_subsonic_545x39_ak_m"", ""cup_20rnd_subsonic_545x39_aksu_m"", ""cup_30rnd_subsonic_545x39_ak74m_m"", ""cup_30rnd_subsonic_545x39_ak74_plum_m"", ""cup_30rnd_subsonic_762x39_ak47_m"", ""cup_20rnd_subsonic_762x39_amd63_m"", ""cup_30rnd_subsonic_762x39_ak47_bakelite_m"", ""cup_30rnd_subsonic_762x39_ak103_bakelite_m"", ""cup_30rnd_subsonic_762x39_akm_bakelite_desert_m"", ""cup_30rnd_subsonic_545x39_fort224_m"", ""rhs_30rnd_545x39_7u1_ak"", ""rhs_45rnd_545x39_7u1_ak"", ""rhs_30rnd_762x39mm_u"", ""rhs_30rnd_762x39mm_bakelite_u"", ""rhs_30rnd_762x39mm_polymer_u"", ""hlc_30rnd_545x39_s_ak"", ""hlc_30rnd_545x39_s_ak_plum"", ""hlc_30rnd_545x39_s_ak_black"", ""hlc_20rnd_762x51_s_fal"", ""hlc_10rnd_762x51_s_fal"", ""hlc_20rnd_762x51_s_g3""";
 													};
 												};
 												class Item1
@@ -6153,7 +6154,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="[""arifle_MX_F"",0.01,45,10,45,0,0]";
+														value="[""arifle_MX_F"", 0.01, 45, 10, 45, 0, 0]";
 													};
 												};
 												class Item1
@@ -14019,7 +14020,7 @@ class Mission
 		startFogDecay=0.017999999;
 		forecastFogDecay=0.017999999;
 	};
-	class Entities
+	class entities
 	{
 		items=58;
 		class Item0
@@ -14041,8 +14042,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9.5220003,23.07638,17856.375};
-				angles[]={0.090757117,0,0.013648475};
+				position[]={
+					9.5220003, 23.07638, 17856.375
+				};
+				angles[]={
+					0.090757117, 0, 0.013648475
+				};
 			};
 			id=992;
 			type="ModuleCurator_F";
@@ -14051,7 +14056,8 @@ class Mission
 				class Attribute0
 				{
 					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
+					expression="_this setVariable ['Owner', _value, true];
+					";
 					class Value
 					{
 						class data
@@ -14064,7 +14070,8 @@ class Mission
 				class Attribute1
 				{
 					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
+					expression="_this setVariable ['Forced', _value, true];
+					";
 					class Value
 					{
 						class data
@@ -14077,7 +14084,8 @@ class Mission
 				class Attribute2
 				{
 					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
+					expression="_this setVariable ['Name', _value, true];
+					";
 					class Value
 					{
 						class data
@@ -14090,7 +14098,8 @@ class Mission
 				class Attribute3
 				{
 					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
+					expression="_this setVariable ['Addons', _value, true];
+					";
 					class Value
 					{
 						class data
@@ -14107,7 +14116,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Roadblock Improvised #1";
-			class Entities
+			class entities
 			{
 				items=27;
 				class Item0
@@ -14115,8 +14124,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9.5763311,26.249981,17832.889};
-						angles[]={0.036389608,0.53350842,6.2354403};
+						position[]={
+							9.5763311, 26.249981, 17832.889
+						};
+						angles[]={
+							0.036389608, 0.53350842, 6.2354403
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14133,7 +14146,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14151,8 +14165,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12.442805,25.624813,17821.971};
-						angles[]={0.013650165,2.1674068,6.2354403};
+						position[]={
+							12.442805, 25.624813, 17821.971
+						};
+						angles[]={
+							0.013650165, 2.1674068, 6.2354403
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14169,7 +14187,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14187,8 +14206,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6.7866936,25.866816,17825.461};
-						angles[]={0.013650165,0.0095706545,6.2240958};
+						position[]={
+							6.7866936, 25.866816, 17825.461
+						};
+						angles[]={
+							0.013650165, 0.0095706545, 6.2240958
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14204,7 +14227,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14222,8 +14246,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5.3554802,25.915482,17827.033};
-						angles[]={0.029571336,1.5804724,6.2240958};
+						position[]={
+							5.3554802, 25.915482, 17827.033
+						};
+						angles[]={
+							0.029571336, 1.5804724, 6.2240958
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14239,7 +14267,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14257,8 +14286,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6.5869441,25.77293,17829.479};
-						angles[]={0.027296599,5.3323302,6.2263637};
+						position[]={
+							6.5869441, 25.77293, 17829.479
+						};
+						angles[]={
+							0.027296599, 5.3323302, 6.2263637
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14274,7 +14307,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14292,8 +14326,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8.3280163,25.763321,17825.656};
-						angles[]={0.013650165,0.35860479,6.2240958};
+						position[]={
+							8.3280163, 25.763321, 17825.656
+						};
+						angles[]={
+							0.013650165, 0.35860479, 6.2240958
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14309,7 +14347,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14327,8 +14366,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7.831337,25.894203,17829.32};
-						angles[]={0.027296599,3.6746545,6.2263637};
+						position[]={
+							7.831337, 25.894203, 17829.32
+						};
+						angles[]={
+							0.027296599, 3.6746545, 6.2263637
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14344,7 +14387,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14362,8 +14406,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7.0918884,26.035744,17831.914};
-						angles[]={0.011378167,5.2454495,6.2263637};
+						position[]={
+							7.0918884, 26.035744, 17831.914
+						};
+						angles[]={
+							0.011378167, 5.2454495, 6.2263637
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14379,7 +14427,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14397,8 +14446,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13.039123,24.922958,17833.271};
-						angles[]={0.036389608,0.25421825,6.2354403};
+						position[]={
+							13.039123, 24.922958, 17833.271
+						};
+						angles[]={
+							0.036389608, 0.25421825, 6.2354403
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14415,7 +14468,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14433,8 +14487,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7.4067421,25.683012,17830.984};
-						angles[]={0.011378167,4.6345596,6.2263637};
+						position[]={
+							7.4067421, 25.683012, 17830.984
+						};
+						angles[]={
+							0.011378167, 4.6345596, 6.2263637
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14450,7 +14508,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14468,8 +14527,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15.416898,25.258753,17831.271};
-						angles[]={0.036387973,0.53228343,6.2218289};
+						position[]={
+							15.416898, 25.258753, 17831.271
+						};
+						angles[]={
+							0.036387973, 0.53228343, 6.2218289
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14487,7 +14550,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14505,8 +14569,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7.0628233,25.509621,17835.498};
-						angles[]={0.09752813,5.5094829,6.201457};
+						position[]={
+							7.0628233, 25.509621, 17835.498
+						};
+						angles[]={
+							0.09752813, 5.5094829, 6.201457
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14522,7 +14590,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14540,8 +14609,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10.333302,25.160748,17836.051};
-						angles[]={0.068153359,5.7692719,6.2354403};
+						position[]={
+							10.333302, 25.160748, 17836.051
+						};
+						angles[]={
+							0.068153359, 5.7692719, 6.2354403
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14557,7 +14630,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14575,8 +14649,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13.191213,25.417051,17837.387};
-						angles[]={0.056821637,1.0568683,6.2240968};
+						position[]={
+							13.191213, 25.417051, 17837.387
+						};
+						angles[]={
+							0.056821637, 1.0568683, 6.2240968
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14592,7 +14670,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14610,8 +14689,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12.24408,25.001087,17839.285};
-						angles[]={0.056821637,5.7696285,6.2467957};
+						position[]={
+							12.24408, 25.001087, 17839.285
+						};
+						angles[]={
+							0.056821637, 5.7696285, 6.2467957
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14627,7 +14710,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14645,8 +14729,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={24.194626,25.054008,17832.115};
-						angles[]={0.027296599,5.9427514,6.2240958};
+						position[]={
+							24.194626, 25.054008, 17832.115
+						};
+						angles[]={
+							0.027296599, 5.9427514, 6.2240958
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14662,7 +14750,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14680,8 +14769,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20.684803,24.814764,17835.014};
-						angles[]={0.045474414,2.3654997,6.237711};
+						position[]={
+							20.684803, 24.814764, 17835.014
+						};
+						angles[]={
+							0.045474414, 2.3654997, 6.237711
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14697,7 +14790,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14715,8 +14809,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={25.303745,24.468945,17839.268};
-						angles[]={0.029571336,3.5021961,6.2377095};
+						position[]={
+							25.303745, 24.468945, 17839.268
+						};
+						angles[]={
+							0.029571336, 3.5021961, 6.2377095
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14733,7 +14831,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14751,8 +14850,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={26.964455,24.49485,17835.791};
-						angles[]={0.029569319,5.0274763,6.2354403};
+						position[]={
+							26.964455, 24.49485, 17835.791
+						};
+						angles[]={
+							0.029569319, 5.0274763, 6.2354403
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14768,7 +14871,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14786,8 +14890,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={23.144072,24.591822,17838.436};
-						angles[]={0.029571336,1.9922637,6.2377095};
+						position[]={
+							23.144072, 24.591822, 17838.436
+						};
+						angles[]={
+							0.029571336, 1.9922637, 6.2377095
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14804,7 +14912,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14822,8 +14931,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={22.474504,24.713392,17836.168};
-						angles[]={0.038661517,5.2335958,6.228631};
+						position[]={
+							22.474504, 24.713392, 17836.168
+						};
+						angles[]={
+							0.038661517, 5.2335958, 6.228631
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14839,7 +14952,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14857,8 +14971,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={23.487865,24.749676,17833.084};
-						angles[]={0.027296599,2.626626,6.2240958};
+						position[]={
+							23.487865, 24.749676, 17833.084
+						};
+						angles[]={
+							0.027296599, 2.626626, 6.2240958
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14874,7 +14992,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14892,8 +15011,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={19.29443,25.559971,17837.537};
-						angles[]={0.045474414,1.8421392,6.237711};
+						position[]={
+							19.29443, 25.559971, 17837.537
+						};
+						angles[]={
+							0.045474414, 1.8421392, 6.237711
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14910,7 +15033,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14928,8 +15052,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={25.415232,24.612141,17834.219};
-						angles[]={0.022746222,2.6148512,6.228632};
+						position[]={
+							25.415232, 24.612141, 17834.219
+						};
+						angles[]={
+							0.022746222, 2.6148512, 6.228632
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14946,7 +15074,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14964,8 +15093,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16.794428,24.664886,17834.248};
-						angles[]={0.03411676,4.9837289,6.2240958};
+						position[]={
+							16.794428, 24.664886, 17834.248
+						};
+						angles[]={
+							0.03411676, 4.9837289, 6.2240958
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -14981,7 +15114,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -14999,8 +15133,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={26.658476,24.442394,17837.889};
-						angles[]={0.029569319,4.2007294,6.2354403};
+						position[]={
+							26.658476, 24.442394, 17837.889
+						};
+						angles[]={
+							0.029569319, 4.2007294, 6.2354403
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15016,7 +15154,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15034,8 +15173,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={18.607502,24.641417,17840.729};
-						angles[]={0.052285124,0.0091813467,6.244524};
+						position[]={
+							18.607502, 24.641417, 17840.729
+						};
+						angles[]={
+							0.052285124, 0.0091813467, 6.244524
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15051,7 +15194,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15072,7 +15216,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Checkpoint (Light)";
-			class Entities
+			class entities
 			{
 				items=21;
 				class Item0
@@ -15080,8 +15224,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={42.793556,23.799448,17813.213};
-						angles[]={6.2763672,3.9600689,6.2331715};
+						position[]={
+							42.793556, 23.799448, 17813.213
+						};
+						angles[]={
+							6.2763672, 3.9600689, 6.2331715
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15097,7 +15245,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15115,8 +15264,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={44.62738,24.522751,17807.277};
-						angles[]={6.2695355,4.2215223,6.2445254};
+						position[]={
+							44.62738, 24.522751, 17807.277
+						};
+						angles[]={
+							6.2695355, 4.2215223, 6.2445254
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15133,7 +15286,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15151,8 +15305,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={44.933746,23.68206,17810.525};
-						angles[]={6.2740831,1.0801017,6.2422528};
+						position[]={
+							44.933746, 23.68206, 17810.525
+						};
+						angles[]={
+							6.2740831, 1.0801017, 6.2422528
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15168,7 +15326,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15186,8 +15345,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={43.992451,23.741693,17812.289};
-						angles[]={6.2740831,3.9598951,6.2422528};
+						position[]={
+							43.992451, 23.741693, 17812.289
+						};
+						angles[]={
+							6.2740831, 3.9598951, 6.2422528
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15203,7 +15366,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15221,8 +15385,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={45.626377,23.642109,17809.76};
-						angles[]={6.2740831,0.55648845,6.2422528};
+						position[]={
+							45.626377, 23.642109, 17809.76
+						};
+						angles[]={
+							6.2740831, 0.55648845, 6.2422528
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15238,7 +15406,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15256,8 +15425,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={37.985596,24.205769,17804.129};
-						angles[]={6.2604365,0.81824583,6.2399812};
+						position[]={
+							37.985596, 24.205769, 17804.129
+						};
+						angles[]={
+							6.2604365, 0.81824583, 6.2399812
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15273,7 +15446,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15291,8 +15465,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={42.483658,24.143789,17804.693};
-						angles[]={6.2649841,1.603308,6.2422528};
+						position[]={
+							42.483658, 24.143789, 17804.693
+						};
+						angles[]={
+							6.2649841, 1.603308, 6.2422528
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15309,7 +15487,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15327,8 +15506,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={21.569065,24.602617,17802.018};
-						angles[]={6.2399812,2.3894002,6.23317};
+						position[]={
+							21.569065, 24.602617, 17802.018
+						};
+						angles[]={
+							6.2399812, 2.3894002, 6.23317
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15344,7 +15527,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15362,8 +15546,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={23.155293,24.583689,17803.289};
-						angles[]={6.2467957,2.6511116,6.2286329};
+						position[]={
+							23.155293, 24.583689, 17803.289
+						};
+						angles[]={
+							6.2467957, 2.6511116, 6.2286329
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15380,7 +15568,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15398,8 +15587,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20.752863,24.601698,17801.158};
-						angles[]={6.2399812,2.1276009,6.23317};
+						position[]={
+							20.752863, 24.601698, 17801.158
+						};
+						angles[]={
+							6.2399812, 2.1276009, 6.23317
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15415,7 +15608,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15433,8 +15627,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={24.496841,24.054913,17792.807};
-						angles[]={6.23317,4.2218924,6.2467976};
+						position[]={
+							24.496841, 24.054913, 17792.807
+						};
+						angles[]={
+							6.23317, 4.2218924, 6.2467976
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15450,7 +15648,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15468,8 +15667,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={26.288181,24.329105,17801.133};
-						angles[]={6.2467957,1.0802664,6.2286329};
+						position[]={
+							26.288181, 24.329105, 17801.133
+						};
+						angles[]={
+							6.2467957, 1.0802664, 6.2286329
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15486,7 +15689,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15504,8 +15708,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={27.923523,23.902414,17792.227};
-						angles[]={6.2377095,2.6510961,6.2513409};
+						position[]={
+							27.923523, 23.902414, 17792.227
+						};
+						angles[]={
+							6.2377095, 2.6510961, 6.2513409
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15521,7 +15729,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15539,8 +15748,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={29.390549,23.919098,17793.717};
-						angles[]={6.2445254,5.0071006,6.2445254};
+						position[]={
+							29.390549, 23.919098, 17793.717
+						};
+						angles[]={
+							6.2445254, 5.0071006, 6.2445254
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15556,7 +15769,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15574,8 +15788,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={25.346676,24.449883,17802.9};
-						angles[]={6.2467957,3.9601085,6.2286329};
+						position[]={
+							25.346676, 24.449883, 17802.9
+						};
+						angles[]={
+							6.2467957, 3.9601085, 6.2286329
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15592,7 +15810,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15610,8 +15829,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={26.092487,23.94305,17791.672};
-						angles[]={6.237711,0.033072188,6.2422514};
+						position[]={
+							26.092487, 23.94305, 17791.672
+						};
+						angles[]={
+							6.237711, 0.033072188, 6.2422514
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15627,7 +15850,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15645,8 +15869,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={23.915966,24.111702,17793.631};
-						angles[]={6.237711,3.698283,6.2422514};
+						position[]={
+							23.915966, 24.111702, 17793.631
+						};
+						angles[]={
+							6.237711, 3.698283, 6.2422514
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15662,7 +15890,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15680,8 +15909,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={29.406149,23.969526,17795.285};
-						angles[]={6.2445254,4.4835768,6.2445254};
+						position[]={
+							29.406149, 23.969526, 17795.285
+						};
+						angles[]={
+							6.2445254, 4.4835768, 6.2445254
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15697,7 +15930,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15715,8 +15949,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={26.979778,24.265841,17800.369};
-						angles[]={6.2467976,0.55667001,6.2399812};
+						position[]={
+							26.979778, 24.265841, 17800.369
+						};
+						angles[]={
+							6.2467976, 0.55667001, 6.2399812
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15732,7 +15970,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15750,8 +15989,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={18.117046,24.684967,17797.059};
-						angles[]={6.228632,4.2219996,6.244524};
+						position[]={
+							18.117046, 24.684967, 17797.059
+						};
+						angles[]={
+							6.228632, 4.2219996, 6.244524
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15767,7 +16010,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15785,8 +16029,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={22.219048,24.883627,17797.834};
-						angles[]={6.2354403,4.7455158,6.2422528};
+						position[]={
+							22.219048, 24.883627, 17797.834
+						};
+						angles[]={
+							6.2354403, 4.7455158, 6.2422528
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -15803,7 +16051,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -15825,8 +16074,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={101.91143,27.47958,17728.094};
-				angles[]={0.0068242373,5.0731311,6.2740746};
+				position[]={
+					101.91143, 27.47958, 17728.094
+				};
+				angles[]={
+					0.0068242373, 5.0731311, 6.2740746
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -15843,7 +16096,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -15856,7 +16110,10 @@ class Mission
 				class Attribute1
 				{
 					property="VehicleCustomization";
-					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					expression="if (local _this) then {
+						([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')
+					};
+					";
 					class Value
 					{
 						class data
@@ -15926,13 +16183,14 @@ class Mission
 				class Attribute2
 				{
 					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					expression="[_this, _value] call bis_fnc_initAmmoBox;
+					";
 					class Value
 					{
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""FirstAidKit""],[1]],[[],[]],[[],[]],[[],[]]],false]";
+							value="[[[[""FirstAidKit""], [1]], [[], []], [[], []], [[], []]], false]";
 						};
 					};
 				};
@@ -15944,8 +16202,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={104.12533,26.732693,17724.506};
-				angles[]={0.045465827,1.761299,6.2740746};
+				position[]={
+					104.12533, 26.732693, 17724.506
+				};
+				angles[]={
+					0.045465827, 1.761299, 6.2740746
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -15961,7 +16223,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -15979,8 +16242,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={103.75507,26.481197,17721.732};
-				angles[]={0.0090931654,0,0.027296949};
+				position[]={
+					103.75507, 26.481197, 17721.732
+				};
+				angles[]={
+					0.0090931654, 0, 0.027296949
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -15997,7 +16264,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16015,8 +16283,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={96.110321,28.065855,17733.518};
-				angles[]={0,4.6230564,0};
+				position[]={
+					96.110321, 28.065855, 17733.518
+				};
+				angles[]={
+					0, 4.6230564, 0
+				};
 			};
 			side="Empty";
 			class Attributes
@@ -16031,7 +16303,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16049,8 +16322,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={93.370949,26.771187,17733.326};
-				angles[]={6.2536163,0,0.015923677};
+				position[]={
+					93.370949, 26.771187, 17733.326
+				};
+				angles[]={
+					6.2536163, 0, 0.015923677
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16065,7 +16342,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16083,8 +16361,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={94.792358,27.053289,17733.305};
-				angles[]={6.2536163,0,0.015923677};
+				position[]={
+					94.792358, 27.053289, 17733.305
+				};
+				angles[]={
+					6.2536163, 0, 0.015923677
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16100,7 +16382,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16118,8 +16401,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={104.25336,26.485214,17725.793};
-				angles[]={0.0068272259,0,6.2740831};
+				position[]={
+					104.25336, 26.485214, 17725.793
+				};
+				angles[]={
+					0.0068272259, 0, 6.2740831
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16136,7 +16423,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16154,8 +16442,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={104.34621,26.969202,17726.012};
-				angles[]={0,4.2143259,0};
+				position[]={
+					104.34621, 26.969202, 17726.012
+				};
+				angles[]={
+					0, 4.2143259, 0
+				};
 			};
 			side="Empty";
 			class Attributes
@@ -16171,7 +16463,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16189,8 +16482,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={104.22057,27.009232,17725.529};
-				angles[]={0,5.6310043,0};
+				position[]={
+					104.22057, 27.009232, 17725.529
+				};
+				angles[]={
+					0, 5.6310043, 0
+				};
 			};
 			side="Empty";
 			class Attributes
@@ -16206,7 +16503,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16224,8 +16522,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={102.6166,26.1308,17721.971};
-				angles[]={0.0090957033,5.9062147,0.027296599};
+				position[]={
+					102.6166, 26.1308, 17721.971
+				};
+				angles[]={
+					0.0090957033, 5.9062147, 0.027296599
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16242,7 +16544,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16260,7 +16563,9 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={104.18286,26.991158,17725.92};
+				position[]={
+					104.18286, 26.991158, 17725.92
+				};
 			};
 			side="Empty";
 			class Attributes
@@ -16276,7 +16581,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16294,8 +16600,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={103.0447,26.347862,17721.693};
-				angles[]={0.0090957033,0,0.027296599};
+				position[]={
+					103.0447, 26.347862, 17721.693
+				};
+				angles[]={
+					0.0090957033, 0, 0.027296599
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16310,7 +16620,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16328,8 +16639,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={103.10164,26.395521,17722.045};
-				angles[]={0.0090957033,0,0.027296599};
+				position[]={
+					103.10164, 26.395521, 17722.045
+				};
+				angles[]={
+					0.0090957033, 0, 0.027296599
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16345,7 +16660,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16363,8 +16679,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1052.3179,22.630835,16789.357};
-				angles[]={0,4.2687588,0};
+				position[]={
+					1052.3179, 22.630835, 16789.357
+				};
+				angles[]={
+					0, 4.2687588, 0
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16380,7 +16700,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16398,8 +16719,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1050.9729,22.403627,16791.811};
-				angles[]={0,2.5074592,0};
+				position[]={
+					1050.9729, 22.403627, 16791.811
+				};
+				angles[]={
+					0, 2.5074592, 0
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16416,7 +16741,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16434,8 +16760,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1052.9773,22.368341,16788.244};
-				angles[]={0,2.5074592,0};
+				position[]={
+					1052.9773, 22.368341, 16788.244
+				};
+				angles[]={
+					0, 2.5074592, 0
+				};
 			};
 			side="Empty";
 			class Attributes
@@ -16451,7 +16781,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16469,8 +16800,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1053.0322,22.852777,16788.014};
-				angles[]={0,0.43859985,0};
+				position[]={
+					1053.0322, 22.852777, 16788.014
+				};
+				angles[]={
+					0, 0.43859985, 0
+				};
 			};
 			side="Empty";
 			class Attributes
@@ -16486,7 +16821,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16504,8 +16840,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1052.8475,22.895521,16788.477};
-				angles[]={0,1.8552783,0};
+				position[]={
+					1052.8475, 22.895521, 16788.477
+				};
+				angles[]={
+					0, 1.8552783, 0
+				};
 			};
 			side="Empty";
 			class Attributes
@@ -16521,7 +16861,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16539,8 +16880,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1052.0313,22.044817,16792.293};
-				angles[]={0,2.1304886,0};
+				position[]={
+					1052.0313, 22.044817, 16792.293
+				};
+				angles[]={
+					0, 2.1304886, 0
+				};
 			};
 			side="Empty";
 			class Attributes
@@ -16556,7 +16901,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16574,8 +16920,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1053.1094,22.869097,16788.184};
-				angles[]={0,2.5074592,0};
+				position[]={
+					1053.1094, 22.869097, 16788.184
+				};
+				angles[]={
+					0, 2.5074592, 0
+				};
 			};
 			side="Empty";
 			class Attributes
@@ -16591,7 +16941,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16609,8 +16960,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1051.5221,22.280609,16792.264};
-				angles[]={0,2.5074592,0};
+				position[]={
+					1051.5221, 22.280609, 16792.264
+				};
+				angles[]={
+					0, 2.5074592, 0
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16626,7 +16981,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16644,8 +17000,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1051.6844,22.316124,16791.947};
-				angles[]={0,2.5074592,0};
+				position[]={
+					1051.6844, 22.316124, 16791.947
+				};
+				angles[]={
+					0, 2.5074592, 0
+				};
 			};
 			side="Empty";
 			flags=4;
@@ -16661,7 +17021,8 @@ class Mission
 				class Attribute0
 				{
 					property="allowDamage";
-					expression="_this allowdamage _value;";
+					expression="_this allowdamage _value;
+					";
 					class Value
 					{
 						class data
@@ -16678,7 +17039,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Road Barricade #1";
-			class Entities
+			class entities
 			{
 				items=35;
 				class Item0
@@ -16686,8 +17047,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1020.1096,23.841873,16830.328};
-						angles[]={0.1194065,0.23268999,0.12360273};
+						position[]={
+							1020.1096, 23.841873, 16830.328
+						};
+						angles[]={
+							0.1194065, 0.23268999, 0.12360273
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -16704,7 +17069,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -16722,8 +17088,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1019.7733,25.154778,16833.225};
-						angles[]={0.088504851,2.8501673,0.047746357};
+						position[]={
+							1019.7733, 25.154778, 16833.225
+						};
+						angles[]={
+							0.088504851, 2.8501673, 0.047746357
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -16739,7 +17109,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -16757,8 +17128,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1017.0348,25.373671,16831.785};
-						angles[]={5.8542461,3.1118059,0.1244944};
+						position[]={
+							1017.0348, 25.373671, 16831.785
+						};
+						angles[]={
+							5.8542461, 3.1118059, 0.1244944
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -16774,7 +17149,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -16792,8 +17168,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1017.8748,23.072567,16828.625};
-						angles[]={5.9851661,1.2798355,6.258163};
+						position[]={
+							1017.8748, 23.072567, 16828.625
+						};
+						angles[]={
+							5.9851661, 1.2798355, 6.258163
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -16809,7 +17189,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -16827,8 +17208,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1028.9148,22.531082,16807.984};
-						angles[]={0.13120966,0.49929333,6.1497397};
+						position[]={
+							1028.9148, 22.531082, 16807.984
+						};
+						angles[]={
+							0.13120966, 0.49929333, 6.1497397
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -16844,7 +17229,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -16862,8 +17248,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1026.2577,22.595039,16812.926};
-						angles[]={0.27948031,5.7409749,6.0124574};
+						position[]={
+							1026.2577, 22.595039, 16812.926
+						};
+						angles[]={
+							0.27948031, 5.7409749, 6.0124574
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -16879,7 +17269,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -16897,8 +17288,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1030.686,22.094868,16807.705};
-						angles[]={0.13120966,2.8511434,6.1497397};
+						position[]={
+							1030.686, 22.094868, 16807.705
+						};
+						angles[]={
+							0.13120966, 2.8511434, 6.1497397
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -16914,7 +17309,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -16932,8 +17328,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1022.1078,23.01976,16814.145};
-						angles[]={0.038661517,2.8511434,6.1609316};
+						position[]={
+							1022.1078, 23.01976, 16814.145
+						};
+						angles[]={
+							0.038661517, 2.8511434, 6.1609316
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -16950,7 +17350,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -16968,8 +17369,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1026.5542,22.918201,16805.818};
-						angles[]={0.083988473,2.8511434,6.1230221};
+						position[]={
+							1026.5542, 22.918201, 16805.818
+						};
+						angles[]={
+							0.083988473, 2.8511434, 6.1230221
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -16985,7 +17390,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17003,8 +17409,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1025.9272,22.626181,16814.895};
-						angles[]={6.1430407,2.8511434,6.2513428};
+						position[]={
+							1025.9272, 22.626181, 16814.895
+						};
+						angles[]={
+							6.1430407, 2.8511434, 6.2513428
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17021,7 +17431,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17039,8 +17450,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1020.7379,24.00596,16809.557};
-						angles[]={0,6.2545357,0};
+						position[]={
+							1020.7379, 24.00596, 16809.557
+						};
+						angles[]={
+							0, 6.2545357, 0
+						};
 					};
 					side="Empty";
 					flags=5;
@@ -17057,7 +17472,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17075,8 +17491,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1032.4506,22.448629,16812.273};
-						angles[]={0,2.8511434,0};
+						position[]={
+							1032.4506, 22.448629, 16812.273
+						};
+						angles[]={
+							0, 2.8511434, 0
+						};
 					};
 					side="Empty";
 					flags=5;
@@ -17093,7 +17513,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17111,8 +17532,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1031.4948,22.461775,16809.482};
-						angles[]={6.2263637,2.854166,0.054553483};
+						position[]={
+							1031.4948, 22.461775, 16809.482
+						};
+						angles[]={
+							6.2263637, 2.854166, 0.054553483
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17129,7 +17554,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17147,8 +17573,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1024.4167,23.434975,16806.375};
-						angles[]={0.083988473,0.23495601,6.1230221};
+						position[]={
+							1024.4167, 23.434975, 16806.375
+						};
+						angles[]={
+							0.083988473, 0.23495601, 6.1230221
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17165,7 +17595,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17183,8 +17614,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1020.1412,23.58857,16812.922};
-						angles[]={0.072681367,2.85534,6.1274605};
+						position[]={
+							1020.1412, 23.58857, 16812.922
+						};
+						angles[]={
+							0.072681367, 2.85534, 6.1274605
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17200,7 +17635,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17218,8 +17654,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1026.9009,23.481775,16808.578};
-						angles[]={0.13120966,4.164485,6.074657};
+						position[]={
+							1026.9009, 23.481775, 16808.578
+						};
+						angles[]={
+							0.13120966, 4.164485, 6.074657
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17236,7 +17676,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17254,8 +17695,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1024.1318,23.036938,16813.07};
-						angles[]={0.038659975,2.8544903,6.0746574};
+						position[]={
+							1024.1318, 23.036938, 16813.07
+						};
+						angles[]={
+							0.038659975, 2.8544903, 6.0746574
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17271,7 +17716,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17289,8 +17735,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1020.0547,24.777966,16811.584};
-						angles[]={5.8541451,1.5487903,6.0958834};
+						position[]={
+							1020.0547, 24.777966, 16811.584
+						};
+						angles[]={
+							5.8541451, 1.5487903, 6.0958834
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17307,7 +17757,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17325,8 +17776,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1024.7607,23.726736,16810.227};
-						angles[]={0.13120966,1.0219574,6.074657};
+						position[]={
+							1024.7607, 23.726736, 16810.227
+						};
+						angles[]={
+							0.13120966, 1.0219574, 6.074657
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17343,7 +17798,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17361,8 +17817,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1037.4747,22.289469,16817.596};
-						angles[]={0.0045543881,4.9551349,6.2649841};
+						position[]={
+							1037.4747, 22.289469, 16817.596
+						};
+						angles[]={
+							0.0045543881, 4.9551349, 6.2649841
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17378,7 +17838,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17396,8 +17857,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1026.3225,23.495195,16828.238};
-						angles[]={6.2037172,4.1602898,0.015927421};
+						position[]={
+							1026.3225, 23.495195, 16828.238
+						};
+						angles[]={
+							6.2037172, 4.1602898, 0.015927421
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17413,7 +17878,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17431,8 +17897,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1025.8491,22.817307,16820.068};
-						angles[]={0,2.8511434,0};
+						position[]={
+							1025.8491, 22.817307, 16820.068
+						};
+						angles[]={
+							0, 2.8511434, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -17448,7 +17918,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17466,8 +17937,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1037.1924,22.139318,16810.82};
-						angles[]={6.2718072,2.8511434,6.2649875};
+						position[]={
+							1037.1924, 22.139318, 16810.82
+						};
+						angles[]={
+							6.2718072, 2.8511434, 6.2649875
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17483,7 +17958,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17501,8 +17977,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1033.7844,22.264515,16816.979};
-						angles[]={6.2467976,2.8511434,6.2445254};
+						position[]={
+							1033.7844, 22.264515, 16816.979
+						};
+						angles[]={
+							6.2467976, 2.8511434, 6.2445254
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17518,7 +17998,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17536,8 +18017,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1018.3075,22.991201,16820.807};
-						angles[]={0.14014459,2.8511434,6.1542125};
+						position[]={
+							1018.3075, 22.991201, 16820.807
+						};
+						angles[]={
+							0.14014459, 2.8511434, 6.1542125
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17553,7 +18038,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17571,8 +18057,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1024.8262,22.694798,16812.096};
-						angles[]={4.9980006,2.8511434,5.097796};
+						position[]={
+							1024.8262, 22.694798, 16812.096
+						};
+						angles[]={
+							4.9980006, 2.8511434, 5.097796
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17588,7 +18078,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17606,8 +18097,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1033.2877,22.728312,16812.58};
-						angles[]={6.2786312,1.0219562,6.2649841};
+						position[]={
+							1033.2877, 22.728312, 16812.58
+						};
+						angles[]={
+							6.2786312, 1.0219562, 6.2649841
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17624,7 +18119,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17642,8 +18138,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1035.4156,22.59376,16816.111};
-						angles[]={6.2467976,1.0202417,6.2445254};
+						position[]={
+							1035.4156, 22.59376, 16816.111
+						};
+						angles[]={
+							6.2467976, 1.0202417, 6.2445254
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17659,7 +18159,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17677,8 +18178,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1024.9452,23.074883,16816.451};
-						angles[]={0,3.1129427,0};
+						position[]={
+							1024.9452, 23.074883, 16816.451
+						};
+						angles[]={
+							0, 3.1129427, 0
+						};
 					};
 					side="Empty";
 					flags=5;
@@ -17694,7 +18199,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17712,8 +18218,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1020.6575,23.925278,16815.689};
-						angles[]={0.068153359,1.5422956,6.1609316};
+						position[]={
+							1020.6575, 23.925278, 16815.689
+						};
+						angles[]={
+							0.068153359, 1.5422956, 6.1609316
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17730,7 +18240,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17748,8 +18259,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1027.1896,23.004181,16816.912};
-						angles[]={0.015923677,2.8508587,6.2536163};
+						position[]={
+							1027.1896, 23.004181, 16816.912
+						};
+						angles[]={
+							0.015923677, 2.8508587, 6.2536163
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17765,7 +18280,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17783,8 +18299,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1039.1121,22.489162,16812.316};
-						angles[]={0.015923677,4.1614304,6.2718072};
+						position[]={
+							1039.1121, 22.489162, 16812.316
+						};
+						angles[]={
+							0.015923677, 4.1614304, 6.2718072
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17800,7 +18320,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17818,8 +18339,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1020.6318,23.313913,16819.162};
-						angles[]={0.018201422,4.4230309,6.2105041};
+						position[]={
+							1020.6318, 23.313913, 16819.162
+						};
+						angles[]={
+							0.018201422, 4.4230309, 6.2105041
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17836,7 +18361,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17854,8 +18380,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1032.3445,22.672689,16815.289};
-						angles[]={0.015927421,2.8528368,6.201457};
+						position[]={
+							1032.3445, 22.672689, 16815.289
+						};
+						angles[]={
+							0.015927421, 2.8528368, 6.201457
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17871,7 +18401,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17889,8 +18420,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1041.2361,22.28389,16812.164};
-						angles[]={0.022748843,2.8521309,6.2649841};
+						position[]={
+							1041.2361, 22.28389, 16812.164
+						};
+						angles[]={
+							0.022748843, 2.8521309, 6.2649841
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17907,7 +18442,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17928,7 +18464,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Road Barricade #3";
-			class Entities
+			class entities
 			{
 				items=35;
 				class Item0
@@ -17936,8 +18472,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1021.3025,23.024996,16821.439};
-						angles[]={0.038661517,0.96858287,6.2105041};
+						position[]={
+							1021.3025, 23.024996, 16821.439
+						};
+						angles[]={
+							0.038661517, 0.96858287, 6.2105041
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17953,7 +18493,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -17971,8 +18512,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1020.2261,23.211222,16821.082};
-						angles[]={0.038661517,4.7387738,6.2105041};
+						position[]={
+							1020.2261, 23.211222, 16821.082
+						};
+						angles[]={
+							0.038661517, 4.7387738, 6.2105041
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -17988,7 +18533,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18006,8 +18552,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1035.6431,22.18104,16818.342};
-						angles[]={0.0045543881,2.9056764,6.2037172};
+						position[]={
+							1035.6431, 22.18104, 16818.342
+						};
+						angles[]={
+							0.0045543881, 2.9056764, 6.2037172
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18024,7 +18574,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18042,8 +18593,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1020.3015,22.92708,16819.773};
-						angles[]={0.038661517,2.9056709,6.2105041};
+						position[]={
+							1020.3015, 22.92708, 16819.773
+						};
+						angles[]={
+							0.038661517, 2.9056709, 6.2105041
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18059,7 +18614,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18077,8 +18633,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1030.0836,22.439171,16816.828};
-						angles[]={0.015927421,2.9062006,6.201457};
+						position[]={
+							1030.0836, 22.439171, 16816.828
+						};
+						angles[]={
+							0.015927421, 2.9062006, 6.201457
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18094,7 +18654,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18112,8 +18673,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1047.9248,22.050676,16822.898};
-						angles[]={0.043203145,3.1674106,6.2218299};
+						position[]={
+							1047.9248, 22.050676, 16822.898
+						};
+						angles[]={
+							0.043203145, 3.1674106, 6.2218299
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18130,7 +18695,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18148,8 +18714,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1034.4049,22.672604,16818.613};
-						angles[]={0.0045543881,2.9056344,6.2037172};
+						position[]={
+							1034.4049, 22.672604, 16818.613
+						};
+						angles[]={
+							0.0045543881, 2.9056344, 6.2037172
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18166,7 +18736,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18184,8 +18755,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1032.3123,22.354897,16817.07};
-						angles[]={6.2467976,2.9056065,6.2536163};
+						position[]={
+							1032.3123, 22.354897, 16817.07
+						};
+						angles[]={
+							6.2467976, 2.9056065, 6.2536163
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18203,7 +18778,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18221,8 +18797,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1034.4573,22.534849,16822.615};
-						angles[]={0.0068272259,5.262723,6.1856575};
+						position[]={
+							1034.4573, 22.534849, 16822.615
+						};
+						angles[]={
+							0.0068272259, 5.262723, 6.1856575
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18239,7 +18819,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18257,8 +18838,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1019.4216,24.097378,16822.85};
-						angles[]={0.038661517,1.5970657,6.2558889};
+						position[]={
+							1019.4216, 24.097378, 16822.85
+						};
+						angles[]={
+							0.038661517, 1.5970657, 6.2558889
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18274,7 +18859,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18292,8 +18878,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1017.2311,23.478827,16821.262};
-						angles[]={0.14014459,0.28822434,6.1542125};
+						position[]={
+							1017.2311, 23.478827, 16821.262
+						};
+						angles[]={
+							0.14014459, 0.28822434, 6.1542125
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18309,7 +18899,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18327,8 +18918,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1016.7487,22.874727,16825.061};
-						angles[]={0.013654531,2.9061031,6.2558889};
+						position[]={
+							1016.7487, 22.874727, 16825.061
+						};
+						angles[]={
+							0.013654531, 2.9061031, 6.2558889
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18345,7 +18940,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18363,8 +18959,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1020.6968,22.69663,16826.578};
-						angles[]={0.011372928,2.9059532,6.2037177};
+						position[]={
+							1020.6968, 22.69663, 16826.578
+						};
+						angles[]={
+							0.011372928, 2.9059532, 6.2037177
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18380,7 +18980,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18398,8 +18999,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1030.7515,22.402781,16822.447};
-						angles[]={6.2718124,2.9075224,0.013650165};
+						position[]={
+							1030.7515, 22.402781, 16822.447
+						};
+						angles[]={
+							6.2718124, 2.9075224, 0.013650165
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18416,7 +19021,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18434,8 +19040,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1030.7744,22.8083,16818.629};
-						angles[]={0,2.9057996,0};
+						position[]={
+							1030.7744, 22.8083, 16818.629
+						};
+						angles[]={
+							0, 2.9057996, 0
+						};
 					};
 					side="Empty";
 					flags=5;
@@ -18452,7 +19062,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18470,8 +19081,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1019.8921,23.177338,16824.607};
-						angles[]={0.011372928,5.2620969,6.2037177};
+						position[]={
+							1019.8921, 23.177338, 16824.607
+						};
+						angles[]={
+							0.011372928, 5.2620969, 6.2037177
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18487,7 +19102,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18505,8 +19121,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1032.8024,22.813713,16821.457};
-						angles[]={6.2718124,2.9065878,0.013650165};
+						position[]={
+							1032.8024, 22.813713, 16821.457
+						};
+						angles[]={
+							6.2718124, 2.9065878, 0.013650165
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18523,7 +19143,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18541,8 +19162,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1032.8964,23.562305,16821.465};
-						angles[]={6.2718124,1.3359936,6.2037177};
+						position[]={
+							1032.8964, 23.562305, 16821.465
+						};
+						angles[]={
+							6.2718124, 1.3359936, 6.2037177
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18558,7 +19183,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18576,8 +19202,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1049.6969,21.398836,16822.426};
-						angles[]={0.043203145,1.5961522,6.2218299};
+						position[]={
+							1049.6969, 21.398836, 16822.426
+						};
+						angles[]={
+							0.043203145, 1.5961522, 6.2218299
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18594,7 +19224,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18612,8 +19243,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1026.0769,22.128529,16822.354};
-						angles[]={0,1.335003,0};
+						position[]={
+							1026.0769, 22.128529, 16822.354
+						};
+						angles[]={
+							0, 1.335003, 0
+						};
 					};
 					side="Empty";
 					flags=5;
@@ -18630,7 +19265,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18648,8 +19284,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1030.0082,23.211733,16823.547};
-						angles[]={6.2718124,4.4765272,0.013650165};
+						position[]={
+							1030.0082, 23.211733, 16823.547
+						};
+						angles[]={
+							6.2718124, 4.4765272, 0.013650165
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18666,7 +19306,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18684,8 +19325,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1028.9458,22.466293,16821.168};
-						angles[]={0.03184462,2.905808,6.2536139};
+						position[]={
+							1028.9458, 22.466293, 16821.168
+						};
+						angles[]={
+							0.03184462, 2.905808, 6.2536139
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18701,7 +19346,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18719,8 +19365,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1034.4836,22.294653,16822.961};
-						angles[]={0.0068272259,2.9055822,6.1856575};
+						position[]={
+							1034.4836, 22.294653, 16822.961
+						};
+						angles[]={
+							0.0068272259, 2.9055822, 6.1856575
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18737,7 +19387,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18755,8 +19406,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1041.9301,22.588045,16822.348};
-						angles[]={0.011372928,1.0730035,6.2059793};
+						position[]={
+							1041.9301, 22.588045, 16822.348
+						};
+						angles[]={
+							0.011372928, 1.0730035, 6.2059793
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18772,7 +19427,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18790,8 +19446,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1031.652,22.634367,16822.66};
-						angles[]={6.2718124,5.5237317,0.013650165};
+						position[]={
+							1031.652, 22.634367, 16822.66
+						};
+						angles[]={
+							6.2718124, 5.5237317, 0.013650165
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18808,7 +19468,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18826,8 +19487,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1027.7748,22.674582,16822.244};
-						angles[]={0.03184275,2.9058051,6.2672582};
+						position[]={
+							1027.7748, 22.674582, 16822.244
+						};
+						angles[]={
+							0.03184275, 2.9058051, 6.2672582
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18843,7 +19508,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18861,8 +19527,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1040.0488,22.376711,16825.508};
-						angles[]={6.0987306,0.28764564,6.2309017};
+						position[]={
+							1040.0488, 22.376711, 16825.508
+						};
+						angles[]={
+							6.0987306, 0.28764564, 6.2309017
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18878,7 +19548,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18896,8 +19567,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1029.7924,22.988083,16825.557};
-						angles[]={6.2037172,4.4765253,0.013650165};
+						position[]={
+							1029.7924, 22.988083, 16825.557
+						};
+						angles[]={
+							6.2037172, 4.4765253, 0.013650165
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18913,7 +19588,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18931,8 +19607,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1042.0206,21.967079,16826.084};
-						angles[]={6.1744013,2.9055789,6.1766505};
+						position[]={
+							1042.0206, 21.967079, 16826.084
+						};
+						angles[]={
+							6.1744013, 2.9055789, 6.1766505
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18948,7 +19628,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -18966,8 +19647,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1030.9556,23.003538,16827.785};
-						angles[]={6.055141,2.9056861,0.16459519};
+						position[]={
+							1030.9556, 23.003538, 16827.785
+						};
+						angles[]={
+							6.055141, 2.9056861, 0.16459519
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -18983,7 +19668,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19001,8 +19687,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1024.9146,22.534176,16825.918};
-						angles[]={6.2354417,2.9057944,6.267262};
+						position[]={
+							1024.9146, 22.534176, 16825.918
+						};
+						angles[]={
+							6.2354417, 2.9057944, 6.267262
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19018,7 +19708,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19036,8 +19727,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1024.3643,23.182154,16823.102};
-						angles[]={0.045475725,4.738399,6.2536139};
+						position[]={
+							1024.3643, 23.182154, 16823.102
+						};
+						angles[]={
+							0.045475725, 4.738399, 6.2536139
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19053,7 +19748,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19071,8 +19767,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1043.0881,22.026714,16824.045};
-						angles[]={0.040932652,5.2618122,6.1766505};
+						position[]={
+							1043.0881, 22.026714, 16824.045
+						};
+						angles[]={
+							0.040932652, 5.2618122, 6.1766505
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19088,7 +19788,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19106,8 +19807,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1022.2253,22.992455,16824.525};
-						angles[]={0.011372928,5.0002193,6.2037177};
+						position[]={
+							1022.2253, 22.992455, 16824.525
+						};
+						angles[]={
+							0.011372928, 5.0002193, 6.2037177
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19124,7 +19829,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19142,8 +19848,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1024.4622,22.720558,16824.793};
-						angles[]={6.2354417,0.28781259,6.267262};
+						position[]={
+							1024.4622, 22.720558, 16824.793
+						};
+						angles[]={
+							6.2354417, 0.28781259, 6.267262
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19159,7 +19869,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19180,7 +19891,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Road Barricade #2";
-			class Entities
+			class entities
 			{
 				items=23;
 				class Item0
@@ -19188,8 +19899,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1008.0591,23.375326,16827.848};
-						angles[]={0.040932652,4.5827551,6.1475053};
+						position[]={
+							1008.0591, 23.375326, 16827.848
+						};
+						angles[]={
+							0.040932652, 4.5827551, 6.1475053
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19205,7 +19920,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19223,8 +19939,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1010.3127,23.954405,16822.32};
-						angles[]={0.22372216,4.5774021,6.2286329};
+						position[]={
+							1010.3127, 23.954405, 16822.32
+						};
+						angles[]={
+							0.22372216, 4.5774021, 6.2286329
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19240,7 +19960,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19258,8 +19979,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1010.7532,23.302828,16829.08};
-						angles[]={0.050015319,3.2759342,6.1475058};
+						position[]={
+							1010.7532, 23.302828, 16829.08
+						};
+						angles[]={
+							0.050015319, 3.2759342, 6.1475058
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19276,7 +20001,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19294,8 +20020,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1011.6401,24.67288,16821.877};
-						angles[]={0.22372243,6.1953349,6.1475053};
+						position[]={
+							1011.6401, 24.67288, 16821.877
+						};
+						angles[]={
+							0.22372243, 6.1953349, 6.1475053
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19312,7 +20042,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19330,8 +20061,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1010.5748,23.879232,16826.777};
-						angles[]={0.040932652,6.154336,6.1475053};
+						position[]={
+							1010.5748, 23.879232, 16826.777
+						};
+						angles[]={
+							0.040932652, 6.154336, 6.1475053
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19347,7 +20082,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19365,8 +20101,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1009.6779,23.469126,16825.008};
-						angles[]={6.2422528,5.3628054,6.228632};
+						position[]={
+							1009.6779, 23.469126, 16825.008
+						};
+						angles[]={
+							6.2422528, 5.3628054, 6.228632
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19383,7 +20123,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19401,8 +20142,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1012.6838,23.608313,16826.66};
-						angles[]={0.013650165,1.456025,6.2604365};
+						position[]={
+							1012.6838, 23.608313, 16826.66
+						};
+						angles[]={
+							0.013650165, 1.456025, 6.2604365
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19418,7 +20163,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19436,8 +20182,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1015.2294,23.937883,16821.508};
-						angles[]={0.140145,0.8168956,6.23317};
+						position[]={
+							1015.2294, 23.937883, 16821.508
+						};
+						angles[]={
+							0.140145, 0.8168956, 6.23317
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19454,7 +20204,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19472,8 +20223,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1014.561,23.294485,16824.438};
-						angles[]={0.040932652,1.3831244,6.2331691};
+						position[]={
+							1014.561, 23.294485, 16824.438
+						};
+						angles[]={
+							0.040932652, 1.3831244, 6.2331691
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19490,7 +20245,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19508,8 +20264,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1013.2716,23.913033,16822.748};
-						angles[]={0.140145,4.6071849,6.23317};
+						position[]={
+							1013.2716, 23.913033, 16822.748
+						};
+						angles[]={
+							0.140145, 4.6071849, 6.23317
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19526,7 +20286,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19544,8 +20305,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1016.3692,23.278416,16824.059};
-						angles[]={0.038661517,1.1309963,6.2558889};
+						position[]={
+							1016.3692, 23.278416, 16824.059
+						};
+						angles[]={
+							0.038661517, 1.1309963, 6.2558889
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19563,7 +20328,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19581,8 +20347,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1014.2971,23.276123,16828.057};
-						angles[]={0.013650165,1.1941942,6.2604365};
+						position[]={
+							1014.2971, 23.276123, 16828.057
+						};
+						angles[]={
+							0.013650165, 1.1941942, 6.2604365
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19600,7 +20370,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19618,8 +20389,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1011.1108,24.75503,16815.523};
-						angles[]={0.054552391,1.9512645,6.1497397};
+						position[]={
+							1011.1108, 24.75503, 16815.523
+						};
+						angles[]={
+							0.054552391, 1.9512645, 6.1497397
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19636,7 +20411,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19654,8 +20430,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1009.9411,24.372658,16817.926};
-						angles[]={0.054553483,4.5475559,6.1430407};
+						position[]={
+							1009.9411, 24.372658, 16817.926
+						};
+						angles[]={
+							0.054553483, 4.5475559, 6.1430407
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19672,7 +20452,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19690,8 +20471,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1013.1649,24.261595,16812.545};
-						angles[]={0.072681367,4.5270324,6.1430407};
+						position[]={
+							1013.1649, 24.261595, 16812.545
+						};
+						angles[]={
+							0.072681367, 4.5270324, 6.1430407
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19708,7 +20493,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19726,8 +20512,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1012.2404,24.979855,16817.484};
-						angles[]={0.054552391,3.0064096,6.1497397};
+						position[]={
+							1012.2404, 24.979855, 16817.484
+						};
+						angles[]={
+							0.054552391, 3.0064096, 6.1497397
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19744,7 +20534,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19762,8 +20553,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1010.6083,24.388987,16820.215};
-						angles[]={0.22372216,4.5759602,6.2286329};
+						position[]={
+							1010.6083, 24.388987, 16820.215
+						};
+						angles[]={
+							0.22372216, 4.5759602, 6.2286329
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19780,7 +20575,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19798,8 +20594,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1013.8676,24.080729,16819.438};
-						angles[]={0.056821637,2.9989514,6.1475053};
+						position[]={
+							1013.8676, 24.080729, 16819.438
+						};
+						angles[]={
+							0.056821637, 2.9989514, 6.1475053
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19816,7 +20616,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19834,8 +20635,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1015.5374,23.933371,16818.398};
-						angles[]={0.056821637,1.4267211,6.1654167};
+						position[]={
+							1015.5374, 23.933371, 16818.398
+						};
+						angles[]={
+							0.056821637, 1.4267211, 6.1654167
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19852,7 +20657,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19870,8 +20676,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1013.7654,24.771812,16814.047};
-						angles[]={0.065888278,4.269084,6.1497402};
+						position[]={
+							1013.7654, 24.771812, 16814.047
+						};
+						angles[]={
+							0.065888278, 4.269084, 6.1497402
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19888,7 +20698,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19906,8 +20717,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1017.1227,23.961193,16815.232};
-						angles[]={0.072681367,1.4728067,6.1654162};
+						position[]={
+							1017.1227, 23.961193, 16815.232
+						};
+						angles[]={
+							0.072681367, 1.4728067, 6.1654162
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19925,7 +20740,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19943,8 +20759,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1017.3611,23.653198,16819.656};
-						angles[]={0.068153359,1.7351003,6.154213};
+						position[]={
+							1017.3611, 23.653198, 16819.656
+						};
+						angles[]={
+							0.068153359, 1.7351003, 6.154213
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19962,7 +20782,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -19980,8 +20801,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1014.1033,24.143431,16816.047};
-						angles[]={0.054552391,1.9495753,6.1497397};
+						position[]={
+							1014.1033, 24.143431, 16816.047
+						};
+						angles[]={
+							0.054552391, 1.9495753, 6.1497397
+						};
 					};
 					side="Empty";
 					flags=4;
@@ -19998,7 +20823,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20019,7 +20845,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Camp Crow";
-			class Entities
+			class entities
 			{
 				items=28;
 				class Item0
@@ -20027,8 +20853,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1052.5869,22.470066,16804.654};
-						angles[]={0,3.3452072,0};
+						position[]={
+							1052.5869, 22.470066, 16804.654
+						};
+						angles[]={
+							0, 3.3452072, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20044,7 +20874,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20062,8 +20893,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1053.1794,22.375418,16797.908};
-						angles[]={0,5.9377308,0};
+						position[]={
+							1053.1794, 22.375418, 16797.908
+						};
+						angles[]={
+							0, 5.9377308, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20079,7 +20914,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20097,8 +20933,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1054.8427,22.310591,16802.969};
-						angles[]={0,4.1660347,0};
+						position[]={
+							1054.8427, 22.310591, 16802.969
+						};
+						angles[]={
+							0, 4.1660347, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20114,7 +20954,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20132,8 +20973,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1055.1392,22.291637,16800.217};
-						angles[]={0,5.0000563,0};
+						position[]={
+							1055.1392, 22.291637, 16800.217
+						};
+						angles[]={
+							0, 5.0000563, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20149,7 +20994,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20167,8 +21013,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1050.0195,22.559345,16798.225};
-						angles[]={0,0.58298504,0};
+						position[]={
+							1050.0195, 22.559345, 16798.225
+						};
+						angles[]={
+							0, 0.58298504, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20184,7 +21034,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20202,8 +21053,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1050.0304,22.633606,16804.014};
-						angles[]={0,2.5684302,0};
+						position[]={
+							1050.0304, 22.633606, 16804.014
+						};
+						angles[]={
+							0, 2.5684302, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20219,7 +21074,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20237,8 +21093,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1051.8375,22.703035,16801.189};
-						angles[]={0,1.457489,0};
+						position[]={
+							1051.8375, 22.703035, 16801.189
+						};
+						angles[]={
+							0, 1.457489, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20254,7 +21114,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20272,8 +21133,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1048.5657,22.891037,16800.678};
-						angles[]={0,3.0758646,0};
+						position[]={
+							1048.5657, 22.891037, 16800.678
+						};
+						angles[]={
+							0, 3.0758646, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20289,7 +21154,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20307,8 +21173,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1053.6993,22.466646,16804.438};
-						angles[]={0,2.3818595,0};
+						position[]={
+							1053.6993, 22.466646, 16804.438
+						};
+						angles[]={
+							0, 2.3818595, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20325,7 +21195,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20343,8 +21214,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1053.8806,22.454638,16804.086};
-						angles[]={0,1.6215242,0};
+						position[]={
+							1053.8806, 22.454638, 16804.086
+						};
+						angles[]={
+							0, 1.6215242, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20361,7 +21236,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20379,8 +21255,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1073.9928,22.615999,16789.801};
-						angles[]={0,0.94969827,0};
+						position[]={
+							1073.9928, 22.615999, 16789.801
+						};
+						angles[]={
+							0, 0.94969827, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20396,7 +21276,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20414,8 +21295,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1073.2097,22.247505,16791.109};
-						angles[]={0,1.4516158,0};
+						position[]={
+							1073.2097, 22.247505, 16791.109
+						};
+						angles[]={
+							0, 1.4516158, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20431,7 +21316,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20449,8 +21335,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1052.222,22.476923,16802.141};
-						angles[]={0,1.0678266,0};
+						position[]={
+							1052.222, 22.476923, 16802.141
+						};
+						angles[]={
+							0, 1.0678266, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20467,7 +21357,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20485,8 +21376,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1050.3933,22.552429,16794.896};
-						angles[]={0,1.0611762,0};
+						position[]={
+							1050.3933, 22.552429, 16794.896
+						};
+						angles[]={
+							0, 1.0611762, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20503,7 +21398,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20521,8 +21417,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1049.8864,22.809071,16794.518};
-						angles[]={0,4.6600327,0};
+						position[]={
+							1049.8864, 22.809071, 16794.518
+						};
+						angles[]={
+							0, 4.6600327, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20539,7 +21439,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20557,8 +21458,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1049.8541,22.742052,16802.963};
-						angles[]={0,2.2599514,0};
+						position[]={
+							1049.8541, 22.742052, 16802.963
+						};
+						angles[]={
+							0, 2.2599514, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20575,7 +21480,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20593,8 +21499,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1050.0062,22.630602,16802.67};
-						angles[]={0,1.5641412,0};
+						position[]={
+							1050.0062, 22.630602, 16802.67
+						};
+						angles[]={
+							0, 1.5641412, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20611,7 +21521,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20629,8 +21540,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1050.5565,22.503437,16795.051};
-						angles[]={0,1.6843683,0};
+						position[]={
+							1050.5565, 22.503437, 16795.051
+						};
+						angles[]={
+							0, 1.6843683, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20647,7 +21562,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20665,8 +21581,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1049.481,22.637274,16799.6};
-						angles[]={0,0.52034169,0};
+						position[]={
+							1049.481, 22.637274, 16799.6
+						};
+						angles[]={
+							0, 0.52034169, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20683,7 +21603,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20701,8 +21622,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1049.5608,22.631653,16799.451};
-						angles[]={0,1.5117203,0};
+						position[]={
+							1049.5608, 22.631653, 16799.451
+						};
+						angles[]={
+							0, 1.5117203, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20719,7 +21644,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20737,8 +21663,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1054.0815,22.444611,16799.436};
-						angles[]={0,1.7321875,0};
+						position[]={
+							1054.0815, 22.444611, 16799.436
+						};
+						angles[]={
+							0, 1.7321875, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20755,7 +21685,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20773,8 +21704,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1054.2255,22.349621,16799.693};
-						angles[]={0,1.0675563,0};
+						position[]={
+							1054.2255, 22.349621, 16799.693
+						};
+						angles[]={
+							0, 1.0675563, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20791,7 +21726,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20809,8 +21745,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1050.6736,22.464546,16794.906};
-						angles[]={0,6.1278806,0};
+						position[]={
+							1050.6736, 22.464546, 16794.906
+						};
+						angles[]={
+							0, 6.1278806, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20821,13 +21761,14 @@ class Mission
 					};
 					id=2642;
 					type="Land_Bandage_F";
-					atlOffset=0.52599144;
+					atlOffset=0.50408745;
 					class CustomAttributes
 					{
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20845,8 +21786,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1050.5356,22.470881,16794.879};
-						angles[]={0,1.4416105,0};
+						position[]={
+							1050.5356, 22.470881, 16794.879
+						};
+						angles[]={
+							0, 1.4416105, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20857,13 +21802,14 @@ class Mission
 					};
 					id=2643;
 					type="Land_Bandage_F";
-					atlOffset=0.53232574;
+					atlOffset=0.51042175;
 					class CustomAttributes
 					{
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20881,8 +21827,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1049.054,22.660156,16801.74};
-						angles[]={0,1.0801612,0};
+						position[]={
+							1049.054, 22.660156, 16801.74
+						};
+						angles[]={
+							0, 1.0801612, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20899,7 +21849,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20917,8 +21868,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1070.8276,21.871006,16789.215};
-						angles[]={0,6.0447583,0};
+						position[]={
+							1070.8276, 21.871006, 16789.215
+						};
+						angles[]={
+							0, 6.0447583, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20935,7 +21890,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20953,8 +21909,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1072.3933,21.847668,16788.684};
-						angles[]={0,5.345027,0};
+						position[]={
+							1072.3933, 21.847668, 16788.684
+						};
+						angles[]={
+							0, 5.345027, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -20971,7 +21931,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -20989,8 +21950,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1050.178,22.616001,16800.221};
-						angles[]={0,4.4485488,0};
+						position[]={
+							1050.178, 22.616001, 16800.221
+						};
+						angles[]={
+							0, 4.4485488, 0
+						};
 					};
 					side="Empty";
 					class Attributes
@@ -21006,7 +21971,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -21021,15 +21987,19 @@ class Mission
 				};
 			};
 			id=2648;
-			atlOffset=0.3597374;
+			atlOffset=0.35871124;
 		};
 		class Item31
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13.348351,25.03986,17828.6};
-				angles[]={0.03184462,2.5418682,6.2150321};
+				position[]={
+					13.348351, 25.03986, 17828.6
+				};
+				angles[]={
+					0.03184462, 2.5418682, 6.2150321
+				};
 			};
 			id=2687;
 			type="ModuleRespawnPosition_F";
@@ -21038,7 +22008,8 @@ class Mission
 				class Attribute0
 				{
 					property="ModuleRespawnPosition_F_Marker";
-					expression="_this setVariable ['Marker',_value,true];";
+					expression="_this setVariable ['Marker', _value, true];
+					";
 					class Value
 					{
 						class data
@@ -21051,7 +22022,8 @@ class Mission
 				class Attribute1
 				{
 					property="ModuleRespawnPosition_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
+					expression="_this setVariable ['Name', _value, true];
+					";
 					class Value
 					{
 						class data
@@ -21064,7 +22036,8 @@ class Mission
 				class Attribute2
 				{
 					property="ModuleRespawnPosition_F_Side";
-					expression="_this setVariable ['Side',_value,true];";
+					expression="_this setVariable ['Side', _value, true];
+					";
 					class Value
 					{
 						class data
@@ -21077,7 +22050,8 @@ class Mission
 				class Attribute3
 				{
 					property="ModuleRespawnPosition_F_ShowNotification";
-					expression="_this setVariable ['ShowNotification',_value,true];";
+					expression="_this setVariable ['ShowNotification', _value, true];
+					";
 					class Value
 					{
 						class data
@@ -21090,7 +22064,8 @@ class Mission
 				class Attribute4
 				{
 					property="ModuleRespawnPosition_F_Type";
-					expression="_this setVariable ['Type',_value,true];";
+					expression="_this setVariable ['Type', _value, true];
+					";
 					class Value
 					{
 						class data
@@ -21107,7 +22082,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21115,8 +22090,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12.109,25.200306,17823.715};
-						angles[]={0.0091106193,2.5416706,6.2399883};
+						position[]={
+							12.109, 25.200306, 17823.715
+						};
+						angles[]={
+							0.0091106193, 2.5416706, 6.2399883
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21126,8 +22105,7 @@ class Mission
 						description="Побратим (Медик)";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2740;
 					type="I_L_Looter_SMG_F";
@@ -21137,7 +22115,11 @@ class Mission
 						class Attribute0
 						{
 							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							expression="if (_value != -1 && {
+								_value != (parseNumber (_this getUnitTrait 'medic'))
+							}) then {
+								_this setVariable [""ace_medical_medicClass"", _value, true]
+							}";
 							class Value
 							{
 								class data
@@ -21150,7 +22132,11 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {
+								_value == -1
+							}) then {
+								_this setVariable ['ace_isEngineer', _value, true]
+							}";
 							class Value
 							{
 								class data
@@ -21163,7 +22149,8 @@ class Mission
 						class Attribute2
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21176,7 +22163,8 @@ class Mission
 						class Attribute3
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21191,8 +22179,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2739;
 			atlOffset=-1.9073486e-006;
 		};
@@ -21200,7 +22187,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21208,8 +22195,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11.649,25.210543,17824.775};
-						angles[]={0.0091106193,2.5416706,6.2399883};
+						position[]={
+							11.649, 25.210543, 17824.775
+						};
+						angles[]={
+							0.0091106193, 2.5416706, 6.2399883
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21219,8 +22210,7 @@ class Mission
 						description="Побратим (Медик)";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2742;
 					type="I_L_Looter_SMG_F";
@@ -21230,7 +22220,11 @@ class Mission
 						class Attribute0
 						{
 							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							expression="if (_value != -1 && {
+								_value != (parseNumber (_this getUnitTrait 'medic'))
+							}) then {
+								_this setVariable [""ace_medical_medicClass"", _value, true]
+							}";
 							class Value
 							{
 								class data
@@ -21243,7 +22237,8 @@ class Mission
 						class Attribute1
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21256,7 +22251,8 @@ class Mission
 						class Attribute2
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21271,8 +22267,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2741;
 			atlOffset=-1.9073486e-006;
 		};
@@ -21280,7 +22275,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21288,8 +22283,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13.967499,25.079079,17826.055};
-						angles[]={0,2.5416706,0};
+						position[]={
+							13.967499, 25.079079, 17826.055
+						};
+						angles[]={
+							0, 2.5416706, 0
+						};
 					};
 					side="Independent";
 					flags=7;
@@ -21298,8 +22297,7 @@ class Mission
 						description="Побратим (Інженер)";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2744;
 					type="I_L_Looter_Pistol_F";
@@ -21308,7 +22306,11 @@ class Mission
 						class Attribute0
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {
+								_value == -1
+							}) then {
+								_this setVariable ['ace_isEngineer', _value, true]
+							}";
 							class Value
 							{
 								class data
@@ -21321,7 +22323,8 @@ class Mission
 						class Attribute1
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21334,7 +22337,8 @@ class Mission
 						class Attribute2
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21349,15 +22353,14 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2743;
 		};
 		class Item35
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21365,8 +22368,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14.438432,25.056231,17825.033};
-						angles[]={0,2.5416706,0};
+						position[]={
+							14.438432, 25.056231, 17825.033
+						};
+						angles[]={
+							0, 2.5416706, 0
+						};
 					};
 					side="Independent";
 					flags=7;
@@ -21375,8 +22382,7 @@ class Mission
 						description="Побратим (Інженер)";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2746;
 					type="I_L_Looter_Pistol_F";
@@ -21385,7 +22391,11 @@ class Mission
 						class Attribute0
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {
+								_value == -1
+							}) then {
+								_this setVariable ['ace_isEngineer', _value, true]
+							}";
 							class Value
 							{
 								class data
@@ -21398,7 +22408,8 @@ class Mission
 						class Attribute1
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21411,7 +22422,8 @@ class Mission
 						class Attribute2
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21426,15 +22438,14 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2745;
 		};
 		class Item36
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21442,8 +22453,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={18.842241,24.763132,17826.035};
-						angles[]={0.0045412821,2.5416706,6.2286329};
+						position[]={
+							18.842241, 24.763132, 17826.035
+						};
+						angles[]={
+							0.0045412821, 2.5416706, 6.2286329
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21452,8 +22467,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2752;
 					type="I_L_Criminal_SG_F";
@@ -21463,7 +22477,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21476,7 +22491,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21491,8 +22507,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2751;
 			atlOffset=1.9073486e-006;
 		};
@@ -21500,7 +22515,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21508,8 +22523,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={17.784906,24.776289,17827.928};
-						angles[]={0.025022388,2.5416706,6.228632};
+						position[]={
+							17.784906, 24.776289, 17827.928
+						};
+						angles[]={
+							0.025022388, 2.5416706, 6.228632
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21518,8 +22537,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2776;
 					type="I_L_Criminal_SG_F";
@@ -21529,7 +22547,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21542,7 +22561,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21557,8 +22577,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2775;
 			atlOffset=1.9073486e-006;
 		};
@@ -21566,7 +22585,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21574,8 +22593,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={18.417988,24.701487,17829.535};
-						angles[]={0.025022388,2.5416706,6.228632};
+						position[]={
+							18.417988, 24.701487, 17829.535
+						};
+						angles[]={
+							0.025022388, 2.5416706, 6.228632
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21584,8 +22607,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2778;
 					type="I_L_Criminal_SG_F";
@@ -21595,7 +22617,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21608,7 +22631,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21623,8 +22647,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2777;
 			atlOffset=1.9073486e-006;
 		};
@@ -21632,7 +22655,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21640,8 +22663,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={19.63798,24.609383,17830.693};
-						angles[]={0.03411676,2.5416706,6.2309017};
+						position[]={
+							19.63798, 24.609383, 17830.693
+						};
+						angles[]={
+							0.03411676, 2.5416706, 6.2309017
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21650,8 +22677,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2780;
 					type="I_L_Criminal_SG_F";
@@ -21661,7 +22687,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21674,7 +22701,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21689,8 +22717,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2779;
 			atlOffset=1.9073486e-006;
 		};
@@ -21698,7 +22725,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21706,8 +22733,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20.984692,24.504396,17831.742};
-						angles[]={0.027296599,2.5416706,6.237711};
+						position[]={
+							20.984692, 24.504396, 17831.742
+						};
+						angles[]={
+							0.027296599, 2.5416706, 6.237711
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21716,8 +22747,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2782;
 					type="I_L_Criminal_SG_F";
@@ -21727,7 +22757,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21740,7 +22771,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21755,8 +22787,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2781;
 			atlOffset=1.9073486e-006;
 		};
@@ -21764,7 +22795,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21772,8 +22803,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={22.396101,24.466528,17830.566};
-						angles[]={0.015927421,2.5416706,6.2240958};
+						position[]={
+							22.396101, 24.466528, 17830.566
+						};
+						angles[]={
+							0.015927421, 2.5416706, 6.2240958
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21782,8 +22817,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2784;
 					type="I_L_Criminal_SG_F";
@@ -21793,7 +22827,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21806,7 +22841,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21821,8 +22857,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2783;
 			atlOffset=1.9073486e-006;
 		};
@@ -21830,7 +22865,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21838,8 +22873,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={23.27203,24.448288,17828.701};
-						angles[]={0.022748843,2.5416706,6.2172971};
+						position[]={
+							23.27203, 24.448288, 17828.701
+						};
+						angles[]={
+							0.022748843, 2.5416706, 6.2172971
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21848,8 +22887,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2786;
 					type="I_L_Criminal_SG_F";
@@ -21859,7 +22897,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21872,7 +22911,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21887,8 +22927,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2785;
 			atlOffset=1.9073486e-006;
 		};
@@ -21896,7 +22935,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21904,8 +22943,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={22.001936,24.538759,17828.408};
-						angles[]={0.022748843,2.5416706,6.2172971};
+						position[]={
+							22.001936, 24.538759, 17828.408
+						};
+						angles[]={
+							0.022748843, 2.5416706, 6.2172971
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21914,8 +22957,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2788;
 					type="I_L_Criminal_SG_F";
@@ -21925,7 +22967,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -21938,7 +22981,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -21953,8 +22997,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2787;
 			atlOffset=1.9073486e-006;
 		};
@@ -21962,7 +23005,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -21970,8 +23013,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={21.253483,24.530394,17830.514};
-						angles[]={0.022748843,2.5416706,6.2309017};
+						position[]={
+							21.253483, 24.530394, 17830.514
+						};
+						angles[]={
+							0.022748843, 2.5416706, 6.2309017
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -21980,8 +23027,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2790;
 					type="I_L_Criminal_SG_F";
@@ -21991,7 +23037,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22004,7 +23051,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22019,8 +23067,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2789;
 			atlOffset=1.9073486e-006;
 		};
@@ -22028,7 +23075,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -22036,8 +23083,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20.003071,24.628448,17829.08};
-						angles[]={0.022748843,2.5416706,6.2309017};
+						position[]={
+							20.003071, 24.628448, 17829.08
+						};
+						angles[]={
+							0.022748843, 2.5416706, 6.2309017
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -22046,8 +23097,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2792;
 					type="I_L_Criminal_SG_F";
@@ -22057,7 +23107,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22070,7 +23121,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22085,8 +23137,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2791;
 			atlOffset=1.9073486e-006;
 		};
@@ -22094,7 +23145,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -22102,8 +23153,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20.030272,24.687405,17826.58};
-						angles[]={0.025022388,2.5416706,6.228632};
+						position[]={
+							20.030272, 24.687405, 17826.58
+						};
+						angles[]={
+							0.025022388, 2.5416706, 6.228632
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -22112,8 +23167,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2794;
 					type="I_L_Criminal_SG_F";
@@ -22123,7 +23177,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22136,7 +23191,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22151,8 +23207,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2793;
 			atlOffset=1.9073486e-006;
 		};
@@ -22160,7 +23215,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -22168,8 +23223,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={18.874405,24.728798,17827.447};
-						angles[]={0.025022388,2.5416706,6.228632};
+						position[]={
+							18.874405, 24.728798, 17827.447
+						};
+						angles[]={
+							0.025022388, 2.5416706, 6.228632
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -22178,8 +23237,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2796;
 					type="I_L_Criminal_SG_F";
@@ -22189,7 +23247,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22202,7 +23261,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22217,8 +23277,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2795;
 			atlOffset=1.9073486e-006;
 		};
@@ -22226,7 +23285,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -22234,8 +23293,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={21.310644,24.59796,17827.412};
-						angles[]={0.022748843,2.5416706,6.2309017};
+						position[]={
+							21.310644, 24.59796, 17827.412
+						};
+						angles[]={
+							0.022748843, 2.5416706, 6.2309017
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -22244,8 +23307,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2798;
 					type="I_L_Criminal_SG_F";
@@ -22255,7 +23317,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22268,7 +23331,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22283,8 +23347,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2797;
 			atlOffset=1.9073486e-006;
 		};
@@ -22292,7 +23355,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -22300,8 +23363,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={22.078436,24.585154,17826.053};
-						angles[]={0.0045543881,2.5416706,6.2172971};
+						position[]={
+							22.078436, 24.585154, 17826.053
+						};
+						angles[]={
+							0.0045543881, 2.5416706, 6.2172971
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -22310,8 +23377,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2800;
 					type="I_L_Criminal_SG_F";
@@ -22321,7 +23387,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22334,7 +23401,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22349,8 +23417,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2799;
 			atlOffset=1.9073486e-006;
 		};
@@ -22358,7 +23425,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -22366,8 +23433,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20.6243,24.669125,17825.309};
-						angles[]={0.0045412821,2.5416706,6.2286329};
+						position[]={
+							20.6243, 24.669125, 17825.309
+						};
+						angles[]={
+							0.0045412821, 2.5416706, 6.2286329
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -22376,8 +23447,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2802;
 					type="I_L_Criminal_SG_F";
@@ -22387,7 +23457,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22400,7 +23471,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22415,8 +23487,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2801;
 			atlOffset=1.9073486e-006;
 		};
@@ -22424,7 +23495,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -22432,8 +23503,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={23.462244,24.464668,17827.43};
-						angles[]={0.022748843,2.5416706,6.2172971};
+						position[]={
+							23.462244, 24.464668, 17827.43
+						};
+						angles[]={
+							0.022748843, 2.5416706, 6.2172971
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -22442,8 +23517,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2804;
 					type="I_L_Criminal_SG_F";
@@ -22453,7 +23527,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22466,7 +23541,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22481,8 +23557,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2803;
 			atlOffset=1.9073486e-006;
 		};
@@ -22490,7 +23565,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Independent";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -22498,8 +23573,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={24.640375,24.377995,17827.822};
-						angles[]={0.022748843,2.5416706,6.2172971};
+						position[]={
+							24.640375, 24.377995, 17827.822
+						};
+						angles[]={
+							0.022748843, 2.5416706, 6.2172971
+						};
 					};
 					side="Independent";
 					flags=6;
@@ -22508,8 +23587,7 @@ class Mission
 						description="Побратим";
 						isPlayable=1;
 						class Inventory
-						{
-						};
+						{};
 					};
 					id=2806;
 					type="I_L_Criminal_SG_F";
@@ -22519,7 +23597,8 @@ class Mission
 						class Attribute0
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22532,7 +23611,8 @@ class Mission
 						class Attribute1
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22547,8 +23627,7 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2805;
 			atlOffset=1.9073486e-006;
 		};
@@ -22557,13 +23636,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10.641,25.45751,17805.879};
-				angles[]={0,0.77998763,0};
+				position[]={
+					10.641, 25.45751, 17805.879
+				};
+				angles[]={
+					0, 0.77998763, 0
+				};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="this addAction [" \n "  ""Отримати базове спорядження""," \n "  {" \n "removeAllWeapons player; " \n "removeAllItems player; " \n "removeAllAssignedItems player; " \n "removeUniform player; " \n "removeVest player; " \n "removeBackpack player; " \n "removeHeadgear player; " \n "removeGoggles player;" \n "" \n "player forceAddUniform ""U_I_C_Soldier_Bandit_1_F"";" \n "player addItem ""ItemMap""; player assignItem ""ItemMap"";" \n "player addItem ""ItemCompass""; player assignItem ""ItemCompass"";" \n "player addItem ""ItemWatch""; player assignItem ""ItemWatch"";" \n "  }" \n "];";
+				init="this addAction [" \n " ""Отримати базове спорядження"", " \n " {
+					" \n "removeAllWeapons player;
+					" \n "removeAllItems player; " \n "removeAllAssignedItems player; " \n "removeUniform player; " \n "removeVest player; " \n "removeBackpack player; " \n "removeHeadgear player; " \n "removeGoggles player;" \n "" \n "player forceAddUniform ""U_I_C_Soldier_Bandit_1_F"";" \n "player addItem ""ItemMap""; player assignItem ""ItemMap"";" \n "player addItem ""ItemCompass""; player assignItem ""ItemCompass"";" \n "player addItem ""ItemWatch""; player assignItem ""ItemWatch"";" \n "
+				}" \n "];
+				";
 			};
 			id=2807;
 			type="CUP_box_c";
@@ -22572,7 +23659,9 @@ class Mission
 		class Item54
 		{
 			dataType="Marker";
-			position[]={548.56702,23.868999,17201.689};
+			position[]={
+				548.56702, 23.868999, 17201.689
+			};
 			name="marker_5";
 			text="Зона місії";
 			markerType="ELLIPSE";
@@ -22581,7 +23670,7 @@ class Mission
 			fillName="Border";
 			a=1000;
 			b=400;
-			angle=227.07492;
+			angle=227.07498;
 			drawBorder=1;
 			id=2808;
 			atlOffset=-2.7498913;
@@ -22591,8 +23680,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={12.470271,23.197586,17855.486};
-				angles[]={0.090762161,0,0.013650165};
+				position[]={
+					12.470271, 23.197586, 17855.486
+				};
+				angles[]={
+					0.090762161, 0, 0.013650165
+				};
 			};
 			id=2827;
 			type="VirtualCurator_F";
@@ -22601,7 +23694,10 @@ class Mission
 				class Attribute0
 				{
 					property="TFAR_freq_lr";
-					expression="if !(_value isEqualTo []) then {_value=[str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput;_this setVariable ['TFAR_freq_lr',_value,true];}";
+					expression="if !(_value isEqualTo []) then {
+						_value=[str _value, 9, 87, 30, 10] call tfar_fnc_parseFrequenciesInput;
+						_this setVariable ['TFAR_freq_lr', _value, true];
+					}";
 					class Value
 					{
 						class data
@@ -22613,7 +23709,10 @@ class Mission
 				class Attribute1
 				{
 					property="TFAR_freq_sr";
-					expression="if !(_value isEqualTo []) then {_value=[str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput;_this setVariable ['TFAR_freq_sr',_value,true];}";
+					expression="if !(_value isEqualTo []) then {
+						_value=[str _value, 8, 512, 30, 10] call tfar_fnc_parseFrequenciesInput;
+						_this setVariable ['TFAR_freq_sr', _value, true];
+					}";
 					class Value
 					{
 						class data
@@ -22629,7 +23728,7 @@ class Mission
 		{
 			dataType="Group";
 			side="Civilian";
-			class Entities
+			class entities
 			{
 				items=1;
 				class Item0
@@ -22637,8 +23736,12 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12.647,25.153326,17810.145};
-						angles[]={0,3.4517376,0};
+						position[]={
+							12.647, 25.153326, 17810.145
+						};
+						angles[]={
+							0, 3.4517376, 0
+						};
 					};
 					side="Civilian";
 					flags=7;
@@ -22655,7 +23758,8 @@ class Mission
 						class Attribute0
 						{
 							property="allowDamage";
-							expression="_this allowdamage _value;";
+							expression="_this allowdamage _value;
+							";
 							class Value
 							{
 								class data
@@ -22668,7 +23772,8 @@ class Mission
 						class Attribute1
 						{
 							property="speaker";
-							expression="_this setspeaker _value;";
+							expression="_this setspeaker _value;
+							";
 							class Value
 							{
 								class data
@@ -22681,7 +23786,8 @@ class Mission
 						class Attribute2
 						{
 							property="pitch";
-							expression="_this setpitch _value;";
+							expression="_this setpitch _value;
+							";
 							class Value
 							{
 								class data
@@ -22694,7 +23800,10 @@ class Mission
 						class Attribute3
 						{
 							property="hideObject";
-							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							expression="if !(is3DEN) then {
+								_this hideObjectGlobal _value;
+							};
+							";
 							class Value
 							{
 								class data
@@ -22707,7 +23816,8 @@ class Mission
 						class Attribute4
 						{
 							property="enableStamina";
-							expression="_this enablestamina _value;";
+							expression="_this enablestamina _value;
+							";
 							class Value
 							{
 								class data
@@ -22722,15 +23832,16 @@ class Mission
 				};
 			};
 			class Attributes
-			{
-			};
+			{};
 			id=2828;
 			atlOffset=0.00031661987;
 		};
 		class Item57
 		{
 			dataType="Marker";
-			position[]={29.221001,24.153,17819.705};
+			position[]={
+				29.221001, 24.153, 17819.705
+			};
 			name="marker_6";
 			markerType="ELLIPSE";
 			type="";
@@ -22740,6 +23851,23 @@ class Mission
 			b=50;
 			id=2830;
 			atlOffset=-0.00023078918;
+		};
+		class Item56
+		{
+			dataType="Marker";
+			position[]={
+				24.080999, 24.455999, 17816.984
+			};
+			name="marker_6";
+			text="База";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorGreen";
+			alpha=0.50007737;
+			a=50;
+			b=50;
+			id=2830;
+			atlOffset=-0.00032043457;
 		};
 	};
 };
