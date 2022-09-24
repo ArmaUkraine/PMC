@@ -1,6 +1,5 @@
 import pathlib
 from bs4 import BeautifulSoup
-import pprint
 
 PROJECT_PATH = pathlib.Path(".").absolute()
 CLIENT_PATH = pathlib.Path("D:\\SteamLibrary\\steamapps\\common\\Arma 3")
@@ -20,4 +19,3 @@ with open("preset.html") as fh:
 
     # Prepare list of mods.
     MODS = [f"{WORKSHOP_PATH}/{x}" for x in mod_ids]
-    pprint.pprint(MODS)

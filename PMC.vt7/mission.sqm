@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=108;
+		nextID=116;
 	};
 	class Camera
 	{
-		pos[]={25.766487,34.849861,17812.309};
-		dir[]={-0.51361698,-0.27131483,0.81404626};
-		up[]={-0.14479513,0.96247745,0.2294879};
-		aside[]={0.84576827,3.9499719e-007,0.53363281};
+		pos[]={-5.4665203,41.038761,17848.465};
+		dir[]={0.56392533,-0.61041081,0.55623114};
+		up[]={0.43458,0.79208404,0.42865053};
+		aside[]={0.70223516,-1.4982652e-007,-0.71194804};
 	};
 };
 binarizationWanted=0;
@@ -336,7 +336,6 @@ class Mission
 				position[]={9.5220003,23.07638,17856.375};
 				angles[]={0.090757117,0,0.013648475};
 			};
-			name="zeus_module";
 			id=992;
 			type="ModuleCurator_F";
 			class CustomAttributes
@@ -350,7 +349,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="zeus_slot";
+							value="76561197999599845";
 						};
 					};
 				};
@@ -376,7 +375,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Zeus";
+							value="DiRaven";
 						};
 					};
 				};
@@ -9196,10 +9195,9 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9.7076635,23.155861,17855.541};
-				angles[]={0.093018748,0,0.011378167};
+				position[]={10.806466,23.131807,17855.959};
+				angles[]={0.090762161,0,0.013650165};
 			};
-			name="zeus_slot";
 			isPlayer=1;
 			id=2827;
 			type="VirtualCurator_F";
@@ -9245,7 +9243,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={12.646726,25.153009,17810.145};
-						angles[]={0,3.451735,-0};
+						angles[]={0,3.451735,0};
 					};
 					side="Civilian";
 					flags=7;

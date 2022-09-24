@@ -1,3 +1,16 @@
+author = "DiRaven#0001";
+onLoadName = "ПВК";
+onLoadMission = "ПВК: А ви точно впевнені шо воно вам треба?";
+// loadScreen = "images\loadScreen.paa";
+enableDebugConsole = 1;
+
+class Header
+{
+	gameType =  Coop;	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 21;	// maximum number of players the mission supports
+};
+
 class CfgFunctions {
     #include "modules\grad-persistence\cfgFunctions.hpp"
 };
