@@ -55,3 +55,18 @@ class CfgGradPersistence {
         };
     };
 };
+
+// Respawn.
+respawn = "BASE";
+class CfgRespawnInventory
+{
+	class B_Default
+	{
+		displayName = "Стандарт";
+		weapons[] = {};
+		magazines[] = {};
+		items[] = {};
+		linkedItems[] = {};
+		uniformClass = "";
+	};
+};
