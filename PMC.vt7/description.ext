@@ -26,7 +26,7 @@ class CfgGradPersistence {
     saveContainers = 3; // Save all except editor-placed.
     saveStatics = 3; // Save all except editor-placed.
     saveGradFortificationsStatics = 0; // Don't save.
-    saveMarkers = 0; // Don't save.
+    saveMarkers = 3; // Save all except editor-placed.
     saveTasks = 0; // Don't save.
     saveTriggers = 0; // Don't save.
 
@@ -54,19 +54,4 @@ class CfgGradPersistence {
             public = 1;
         };
     };
-};
-
-// Respawn.
-respawn = "BASE";
-class CfgRespawnInventory
-{
-	class B_Default
-	{
-		displayName = "Стандарт";
-		weapons[] = {};
-		magazines[] = {};
-		items[] = {};
-		linkedItems[] = {};
-		uniformClass = "";
-	};
 };
