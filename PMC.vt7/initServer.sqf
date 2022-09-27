@@ -6,7 +6,6 @@
 	};
 };
 
-fn_stripUnitRandom = compileFinal preprocessFileLineNumbers "functions\fn_stripUnitRandom.sqf";
-
 // Remove magazines on entity killed.
+fn_stripUnitRandom = compileFinal preprocessFileLineNumbers "functions\fn_stripUnitRandom.sqf";
 addMissionEventHandler ["EntityKilled", fn_stripUnitRandom];

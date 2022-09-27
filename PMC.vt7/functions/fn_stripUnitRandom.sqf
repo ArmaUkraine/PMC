@@ -24,3 +24,4 @@ if (random 1 < 0.9) then {
 
 // Remove googles and armbands.
 removeGoggles _unit;
+removeAllAssignedItems _unit;
