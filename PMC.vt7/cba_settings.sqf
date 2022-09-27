@@ -512,7 +512,7 @@ force ace_viewports_enabled = true;
 
 // ACE View distance Limiter
 force ace_viewdistance_enabled = true;
-force ace_viewdistance_limitViewDistance = 10000;
+force ace_viewdistance_limitViewDistance = 1000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 0;
 ace_viewdistance_viewDistanceLandVehicle = 0;
