@@ -21,14 +21,14 @@ class CfgGradPersistence {
     missionWaitCondition = "true";
     playerWaitCondition = "true";
 
-    saveUnits = 2; // Save all objects.
-    saveVehicles = 3; // Save except editor-placed vehicles.
-    saveContainers = 3; // Save except editor-placed containers.
-    saveStatics = 3; // Save except editor-placed statics.
-    saveGradFortificationsStatics = 0; // Don't save grad fortifications.
-    saveMarkers = 2; // Save all markers.
-    saveTasks = 0; // Don't save tasks.
-    saveTriggers = 0; // Don't save triggers.
+    saveUnits = 0; // Don't save.
+    saveVehicles = 3; // Save all except editor-placed.
+    saveContainers = 3; // Save all except editor-placed.
+    saveStatics = 3; // Save all except editor-placed.
+    saveGradFortificationsStatics = 0; // Don't save.
+    saveMarkers = 0; // Don't save.
+    saveTasks = 0; // Don't save.
+    saveTriggers = 0; // Don't save.
 
     savePlayerInventory = 1;
     savePlayerDamage = 0;
