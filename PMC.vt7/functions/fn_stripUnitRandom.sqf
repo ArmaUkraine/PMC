@@ -8,17 +8,17 @@ if (random 1 < 0.7) then {
 };
 
 // Remove vest.
-if (random 1 < 0.7) then {
+if (random 1 < 0.8) then {
 	removeVest _unit;
 };
 
 // Remove weapons.
-if (random 1 < 0.7) then {
+if (random 1 < 0.8) then {
 	removeAllWeapons _unit;
 };
 
 // Remove backpack.
-if (random 1 < 0.7) then {
+if (random 1 < 0.8) then {
 	removeBackpack _unit;
 };
 
