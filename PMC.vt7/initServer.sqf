@@ -7,5 +7,8 @@
 };
 
 // Remove magazines on entity killed.
-fn_stripUnitRandom = compileFinal preprocessFileLineNumbers "functions\fn_stripUnitRandom.sqf";
-addMissionEventHandler ["EntityKilled", fn_stripUnitRandom];
+addMissionEventHandler ["EntityKilled", DIR_fnc_stripUnitRandom];
+
+call DIR_fnc_loadPlayers;
+call DIR_fnc_initWhitelist;
+call DIR_fnc_initPlayerSkills;
