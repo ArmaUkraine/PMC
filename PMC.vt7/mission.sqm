@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=352;
+		nextID=364;
 	};
 	class Camera
 	{
@@ -990,7 +990,7 @@ class Mission
 			name="respawn_INDEPENDENT";
 			text="Респ";
 			type="Empty";
-			angle=202.83577;
+			angle=202.83575;
 			id=2836;
 			atlOffset=2.4302788;
 		};
