@@ -12,66 +12,66 @@ if (isPlayer _unit) then {
 
 	switch true do
 	{
-		case ((_vehicle_type == "Motorcycle") && (_role == "driver") && ("motorcycle-driver" in _skills)): {
+		case ((_vehicle_type == "Motorcycle") && (_role == "driver") && ("MotorcycleDriver" in _skills)): {
 			true;
 		};
-		case ((_vehicle_type == "Motorcycle") && (_role == "turret") && ("motorcycle-gunner" in _skills)): {
-			true;
-		};
-
-		case ((_vehicle_type == "Car") && (_role == "driver") && ("car-driver" in _skills)): {
-			true;
-		};
-		case ((_vehicle_type == "Car") && (_role == "turret") && ("car-gunner" in _skills)): {
+		case ((_vehicle_type == "Motorcycle") && (_role == "turret") && ("MotorcycleGunner" in _skills)): {
 			true;
 		};
 
-		case ((_vehicle_type == "WheeledAPC") && (_role == "driver") && ("wheeledapc-driver" in _skills)): {
+		case ((_vehicle_type == "Car") && (_role == "driver") && ("CarDriver" in _skills)): {
 			true;
 		};
-		case ((_vehicle_type == "WheeledAPC") && (_role == "turret") && ("wheeledapc-driver" in _skills)): {
-			true;
-		};
-
-		case ((_vehicle_type == "TrackedAPC") && (_role == "driver") && ("trackedapc-driver" in _skills)): {
-			true;
-		};
-		case ((_vehicle_type == "TrackedAPC") && (_role == "turret") && ("trackedapc-driver" in _skills)): {
+		case ((_vehicle_type == "Car") && (_role == "turret") && ("CarGunner" in _skills)): {
 			true;
 		};
 
-		case ((_vehicle_type == "Tank") && (_role == "driver") && ("tank-driver" in _skills)): {
+		case ((_vehicle_type == "WheeledAPC") && (_role == "driver") && ("WheeledAPCDriver" in _skills)): {
 			true;
 		};
-		case ((_vehicle_type == "Tank") && (_role == "turret") && ("tank-driver" in _skills)): {
-			true;
-		};
-
-		case ((_vehicle_type == "Ship") && (_role == "driver") && ("ship-driver" in _skills)): {
-			true;
-		};
-		case ((_vehicle_type == "Ship") && (_role == "turret") && ("ship-driver" in _skills)): {
+		case ((_vehicle_type == "WheeledAPC") && (_role == "turret") && ("WheeledAPCDriver" in _skills)): {
 			true;
 		};
 
-		case ((_vehicle_type == "Submarine") && (_role == "driver") && ("submarine-driver" in _skills)): {
+		case ((_vehicle_type == "TrackedAPC") && (_role == "driver") && ("TrackedAPCDriver" in _skills)): {
 			true;
 		};
-		case ((_vehicle_type == "Submarine") && (_role == "turret") && ("submarine-driver" in _skills)): {
-			true;
-		};
-
-		case ((_vehicle_type == "Helicopter") && (_role == "driver") && ("helicopter-driver" in _skills)): {
-			true;
-		};
-		case ((_vehicle_type == "Helicopter") && (_role == "turret") && ("helicopter-driver" in _skills)): {
+		case ((_vehicle_type == "TrackedAPC") && (_role == "turret") && ("TrackedAPCDriver" in _skills)): {
 			true;
 		};
 
-		case ((_vehicle_type == "Plane") && (_role == "driver") && ("plane-driver" in _skills)): {
+		case ((_vehicle_type == "Tank") && (_role == "driver") && ("TankDriver" in _skills)): {
 			true;
 		};
-		case ((_vehicle_type == "Plane") && (_role == "turret") && ("plane-driver" in _skills)): {
+		case ((_vehicle_type == "Tank") && (_role == "turret") && ("TankDriver" in _skills)): {
+			true;
+		};
+
+		case ((_vehicle_type == "Ship") && (_role == "driver") && ("ShipDriver" in _skills)): {
+			true;
+		};
+		case ((_vehicle_type == "Ship") && (_role == "turret") && ("ShipDriver" in _skills)): {
+			true;
+		};
+
+		case ((_vehicle_type == "Submarine") && (_role == "driver") && ("SubmarineDriver" in _skills)): {
+			true;
+		};
+		case ((_vehicle_type == "Submarine") && (_role == "turret") && ("SubmarineDriver" in _skills)): {
+			true;
+		};
+
+		case ((_vehicle_type == "Helicopter") && (_role == "driver") && ("HelicopterDriver" in _skills)): {
+			true;
+		};
+		case ((_vehicle_type == "Helicopter") && (_role == "turret") && ("HelicopterDriver" in _skills)): {
+			true;
+		};
+
+		case ((_vehicle_type == "Plane") && (_role == "driver") && ("PlaneDriver" in _skills)): {
+			true;
+		};
+		case ((_vehicle_type == "Plane") && (_role == "turret") && ("PlaneDriver" in _skills)): {
 			true;
 		};
 
