@@ -50,8 +50,6 @@
 // https// community.bistudio.com/wiki/Arma_3:_Event_Handlers#Take
 // https// community.bistudio.com/wiki/Arma_3:_Event_Handlers#InventoryClosed
 
-diag_log "[DIR] load players";
-
 DIR_var_players = createHashMapFromArray [
 	// DiRaven
 	["76561197999599845", [
@@ -61,14 +59,14 @@ DIR_var_players = createHashMapFromArray [
 		""
 	]],
 	// ASADA
-	["76561198130468709", [
+	["765611981304687091", [
 		"Medic",
 		"Doctor",
 		"AssaultRifle",
 		""
 	]],
 	// FarinFore
-	["76561198279755835", [
+	["765611982797558351", [
 		"CarDriver",
 		"Engineer",
 		"AssaultRifle",

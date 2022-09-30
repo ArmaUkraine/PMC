@@ -34,7 +34,6 @@ class CfgFunctions
 		{
 			class skills_handleVehicleSeatEntered {};
 			class skills_initServer {};
-			class skills_initPlayer {};
 			class skills_loadPlayers {};
 		};
 		class Whitelist

@@ -1,5 +1,7 @@
 private _unit = _this;
 
+diag_log "[DIR] vehicle seat entered";
+
 if (isPlayer _unit) then {
 	private _skills = DIR_var_players get getPlayerUID _unit;
 	private _role = (assignedVehicleRole _unit) select 0;
