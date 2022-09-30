@@ -28,14 +28,18 @@ class CfgFunctions
 	{
 		class World
 		{
-			class stripUnitRandom {};
+			class world_stripUnitRandom {};
 		};
 		class Skills
 		{
-			class handleVehicleSeatEntered {};
-			class initPlayerSkills {};
-			class initWhitelist {};
-			class loadPlayers {};
+			class skills_handleVehicleSeatEntered {};
+			class skills_initServer {};
+			class skills_initPlayer {};
+			class skills_loadPlayers {};
+		};
+		class Whitelist
+		{
+			class whitelist_initServer {};
 		};
 	};
 };
