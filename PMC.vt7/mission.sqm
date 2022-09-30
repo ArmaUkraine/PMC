@@ -5,29 +5,29 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=641;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=3828;
+		nextID=3843;
 	};
 	class MarkerIDProvider
 	{
-		nextID=9;
+		nextID=11;
 	};
 	class LayerIndexProvider
 	{
-		nextID=333;
+		nextID=352;
 	};
 	class Camera
 	{
-		pos[]={1947.432,27.33144,17815.664};
-		dir[]={-0.86371213,-0.46806297,-0.18686466};
-		up[]={-0.45747864,0.88369507,-0.098975793};
-		aside[]={-0.21145828,0,0.97738695};
+		pos[]={1945.8007,27.33144,17805.783};
+		dir[]={-0.70284635,-0.48109388,0.52398074};
+		up[]={-0.38570437,0.87666905,0.28754741};
+		aside[]={0.59769499,1.4901161e-008,0.8017236};
 	};
 };
 binarizationWanted=0;
@@ -810,14 +810,14 @@ class Mission
 	};
 	class Entities
 	{
-		items=43;
+		items=44;
 		class Item0
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={1895.1481,20.703053,17824.984};
-				angles[]={0.011372928,0,6.2059793};
+				position[]={1908.9274,20.336372,17825.23};
+				angles[]={0,5.3709211,6.2740898};
 			};
 			id=992;
 			type="ModuleCurator_F";
@@ -986,12 +986,13 @@ class Mission
 		class Item2
 		{
 			dataType="Marker";
-			position[]={1899.1796,23.147644,17796.418};
+			position[]={1935.7766,22.981201,17814.314};
 			name="respawn_INDEPENDENT";
 			text="Респ";
 			type="Empty";
+			angle=202.83577;
 			id=2836;
-			atlOffset=3.4537334;
+			atlOffset=2.4302788;
 		};
 		class Item3
 		{
@@ -2001,15 +2002,8 @@ class Mission
 			name="Base";
 			class Entities
 			{
-				items=3;
+				items=1;
 				class Item0
-				{
-					dataType="Layer";
-					name="Checkpoint (Light)";
-					id=2115;
-					atlOffset=22.049999;
-				};
-				class Item1
 				{
 					dataType="Layer";
 					name="Taskgiver";
@@ -2558,50 +2552,11 @@ class Mission
 					id=3016;
 					atlOffset=0.26208305;
 				};
-				class Item2
-				{
-					dataType="Layer";
-					name="Roadblock Improvised #1";
-					id=1168;
-					atlOffset=22.049999;
-				};
 			};
 			id=3018;
-			atlOffset=-15.82575;
+			atlOffset=0.26208305;
 		};
 		class Item23
-		{
-			dataType="Layer";
-			name="Scrapyard";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Layer";
-					name="Road Barricade #2";
-					id=2234;
-					atlOffset=22.049999;
-				};
-				class Item1
-				{
-					dataType="Layer";
-					name="Road Barricade #3";
-					id=2210;
-					atlOffset=22.049999;
-				};
-				class Item2
-				{
-					dataType="Layer";
-					name="Road Barricade #1";
-					id=2174;
-					atlOffset=22.049999;
-				};
-			};
-			id=3019;
-			atlOffset=22.049999;
-		};
-		class Item24
 		{
 			dataType="Layer";
 			name="Templates";
@@ -3826,10 +3781,10 @@ class Mission
 			id=3099;
 			atlOffset=-0.02806282;
 		};
-		class Item25
+		class Item24
 		{
 			dataType="Marker";
-			position[]={691.48932,17.417969,17312.17};
+			position[]={1857.0315,17.148682,17807.904};
 			name="marker_8";
 			markerType="ELLIPSE";
 			type="";
@@ -3839,9 +3794,9 @@ class Mission
 			b=700;
 			drawBorder=1;
 			id=3100;
-			atlOffset=-0.72203064;
+			atlOffset=-1.6819935;
 		};
-		class Item26
+		class Item25
 		{
 			dataType="Group";
 			side="Civilian";
@@ -3869,323 +3824,7 @@ class Mission
 			};
 			id=3272;
 		};
-		class Item27
-		{
-			dataType="Layer";
-			name="Road Barricade #1";
-			id=3467;
-			atlOffset=22.049999;
-		};
-		class Item28
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1934.9368,20.492128,17817.104};
-						angles[]={0,3.5852079,0.018198147};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						description="Побратим (Медик)";
-						isPlayable=1;
-					};
-					id=3710;
-					type="UK3CB_CHC_I_CIV";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male03POL";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=3709;
-		};
-		class Item29
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1935.2407,20.499245,17817.729};
-						angles[]={6.2786312,3.4977818,0.018201422};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						description="Побратим (Медик)";
-						isPlayable=1;
-					};
-					id=3712;
-					type="UK3CB_CHC_I_CIV";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isEngineer";
-							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=-1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male03POL";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=4;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=3711;
-		};
-		class Item30
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1933.4771,20.470297,17818.584};
-						angles[]={6.2786312,3.5169425,0.020473262};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						description="Побратим (Інженер)";
-						isPlayable=1;
-					};
-					id=3714;
-					type="UK3CB_CHC_I_CIV";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isEngineer";
-							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male03POL";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=3713;
-		};
-		class Item31
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1933.1339,20.467268,17817.643};
-						angles[]={0.015923677,3.6741054,0};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						description="Побратим (Інженер)";
-						isPlayable=1;
-					};
-					id=3716;
-					type="UK3CB_CHC_I_CIV";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isEngineer";
-							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male03POL";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=3715;
-		};
-		class Item32
+		class Item26
 		{
 			dataType="Group";
 			side="Independent";
@@ -4246,7 +3885,7 @@ class Mission
 			};
 			id=3719;
 		};
-		class Item33
+		class Item27
 		{
 			dataType="Group";
 			side="Independent";
@@ -4307,7 +3946,7 @@ class Mission
 			};
 			id=3721;
 		};
-		class Item34
+		class Item28
 		{
 			dataType="Group";
 			side="Independent";
@@ -4368,7 +4007,7 @@ class Mission
 			};
 			id=3723;
 		};
-		class Item35
+		class Item29
 		{
 			dataType="Group";
 			side="Independent";
@@ -4429,7 +4068,7 @@ class Mission
 			};
 			id=3745;
 		};
-		class Item36
+		class Item30
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4538,7 +4177,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item37
+		class Item31
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4572,7 +4211,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item38
+		class Item32
 		{
 			dataType="Layer";
 			name="Camp Site";
@@ -5061,7 +4700,6 @@ class Mission
 					};
 					id=3818;
 					type="Land_Bandage_F";
-					atlOffset=0.021903992;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5098,7 +4736,6 @@ class Mission
 					};
 					id=3819;
 					type="Land_Bandage_F";
-					atlOffset=0.021903992;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5135,7 +4772,6 @@ class Mission
 					};
 					id=3820;
 					type="Land_Bandage_F";
-					atlOffset=0.021903992;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5409,9 +5045,9 @@ class Mission
 				};
 			};
 			id=3808;
-			atlOffset=0.0015144348;
+			atlOffset=0.0013656616;
 		};
-		class Item39
+		class Item33
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5445,7 +5081,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item40
+		class Item34
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5479,7 +5115,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item41
+		class Item35
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5513,7 +5149,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item42
+		class Item36
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5547,6 +5183,288 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item37
+		{
+			dataType="Marker";
+			position[]={1931.451,20.732,17804.248};
+			name="marker_9";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorGUER";
+			a=200;
+			b=200;
+			id=3828;
+			atlOffset=0.00037384033;
+		};
+		class Item38
+		{
+			dataType="Marker";
+			position[]={780.427,39.699001,17722.574};
+			name="marker_10";
+			type="mil_unknown";
+			colorName="ColorOrange";
+			id=3829;
+			atlOffset=-1.9073486e-005;
+		};
+		class Item39
+		{
+			dataType="Marker";
+			position[]={1066.0826,21.202465,16763.674};
+			name="marker_11";
+			type="mil_unknown";
+			colorName="ColorOrange";
+			id=3830;
+		};
+		class Item40
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1935.4086,20.500717,17816.553};
+						angles[]={0,3.6079588,0.018198147};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						description="Побратим";
+						isPlayable=1;
+					};
+					id=3836;
+					type="UK3CB_CHC_I_CIV";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01POL";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=3835;
+		};
+		class Item41
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1935.7113,20.50647,17817.434};
+						angles[]={6.2786312,3.4513764,0.018201422};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						description="Побратим";
+						isPlayable=1;
+					};
+					id=3838;
+					type="UK3CB_CHC_I_CIV";
+					atlOffset=3.8146973e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01POL";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=3837;
+			atlOffset=3.8146973e-006;
+		};
+		class Item42
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1934.8923,20.493046,17817.76};
+						angles[]={6.2786312,3.5637386,0.018201422};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						description="Побратим";
+						isPlayable=1;
+					};
+					id=3840;
+					type="UK3CB_CHC_I_CIV";
+					atlOffset=1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01POL";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=3839;
+			atlOffset=1.9073486e-006;
+		};
+		class Item43
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1934.3687,20.489958,17816.623};
+						angles[]={0.043204524,3.4143572,6.2581606};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						description="Побратим";
+						isPlayable=1;
+					};
+					id=3842;
+					type="UK3CB_CHC_I_CIV";
+					atlOffset=3.8146973e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01POL";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=3841;
+			atlOffset=3.8146973e-006;
 		};
 	};
 	class Connections
