@@ -54,7 +54,7 @@ diag_log "[DIR] load players";
 
 DIR_var_players = createHashMapFromArray [
 	// DiRaven
-	["765611979995998451", [
+	["76561197999599845", [
 		"CarDriver",
 		"Engineer",
 		"AssaultRifle",
