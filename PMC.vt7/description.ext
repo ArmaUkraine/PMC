@@ -28,17 +28,16 @@ class CfgFunctions
 	{
 		class World
 		{
+			class world_initServer {};
+
 			class world_stripUnitRandom {};
 		};
 		class Skills
 		{
 			class skills_handleVehicleSeatEntered {};
 			class skills_initServer {};
-			class skills_loadPlayers {};
-		};
-		class Whitelist
-		{
-			class whitelist_initServer {};
+			class skills_initPlayerLocal {};
+			class skills_loadConst {};
 		};
 	};
 };

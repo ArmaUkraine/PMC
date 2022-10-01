@@ -5,14 +5,14 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=641;
+	toggles=513;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=3843;
+		nextID=3876;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=364;
+		nextID=387;
 	};
 	class Camera
 	{
-		pos[]={1945.8007,27.33144,17805.783};
-		dir[]={-0.70284635,-0.48109388,0.52398074};
-		up[]={-0.38570437,0.87666905,0.28754741};
-		aside[]={0.59769499,1.4901161e-008,0.8017236};
+		pos[]={7738.981,39.58437,720.22546};
+		dir[]={0.049615972,-0.53560454,-0.84301013};
+		up[]={0.031468935,0.84446895,-0.53467929};
+		aside[]={-0.99827254,-1.8626451e-009,-0.058754053};
 	};
 };
 binarizationWanted=0;
@@ -90,13 +90,14 @@ addons[]=
 	"ace_interaction",
 	"ace_cargo",
 	"A3_Structures_F_EPA_Items_Medical",
-	"A3_Structures_F_Heli_Items_Tools"
+	"A3_Structures_F_Heli_Items_Tools",
+	"CUP_Editor_A2_Roads_Config"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=39;
+		items=40;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -356,6 +357,11 @@ class AddonsMetaData
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
+		};
+		class Item39
+		{
+			className="CUP_Editor_A2_Roads_Config";
+			name="CUP_Editor_A2_Roads_Config";
 		};
 	};
 };
@@ -810,7 +816,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=44;
+		items=51;
 		class Item0
 		{
 			dataType="Logic";
@@ -5200,17 +5206,17 @@ class Mission
 		class Item38
 		{
 			dataType="Marker";
-			position[]={780.427,39.699001,17722.574};
+			position[]={847.1665,33.017822,17647.068};
 			name="marker_10";
 			type="mil_unknown";
 			colorName="ColorOrange";
 			id=3829;
-			atlOffset=-1.9073486e-005;
+			atlOffset=-0.69616318;
 		};
 		class Item39
 		{
 			dataType="Marker";
-			position[]={1066.0826,21.202465,16763.674};
+			position[]={1051.717,23.748236,16750.525};
 			name="marker_11";
 			type="mil_unknown";
 			colorName="ColorOrange";
@@ -5465,6 +5471,145 @@ class Mission
 			};
 			id=3841;
 			atlOffset=3.8146973e-006;
+		};
+		class Item44
+		{
+			dataType="Marker";
+			position[]={954.68695,20.951698,16952.389};
+			name="marker_12";
+			type="mil_unknown";
+			colorName="ColorOrange";
+			id=3843;
+		};
+		class Item45
+		{
+			dataType="Marker";
+			position[]={748.72412,26.762451,17046.563};
+			name="marker_13";
+			type="mil_unknown";
+			colorName="ColorOrange";
+			id=3844;
+			atlOffset=-0.74051094;
+		};
+		class Item46
+		{
+			dataType="Marker";
+			position[]={1450.3662,26.74292,16052.411};
+			name="marker_14";
+			type="mil_unknown";
+			colorName="ColorOrange";
+			id=3845;
+			atlOffset=-0.59069252;
+		};
+		class Item47
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1941.2621,20.568129,17805.68};
+				angles[]={0,3.6254327,6.2695398};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=3859;
+			type="CUP_A2_Road_mud_6konec";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item48
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1935.2179,20.587362,17794.922};
+				angles[]={6.2763581,0.48378208,6.2763581};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=3860;
+			type="CUP_A2_Road_mud_6konec";
+			atlOffset=-1.9073486e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item49
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1938.2526,20.55475,17800.18};
+				angles[]={6.2718124,3.6642928,6.2809215};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=3861;
+			type="CUP_A2_Road_mud_6";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item50
+		{
+			dataType="Layer";
+			name="test";
+			id=3873;
+			atlOffset=22.049999;
 		};
 	};
 	class Connections
