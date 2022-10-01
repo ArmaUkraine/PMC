@@ -16,7 +16,6 @@ DIR_con_headache = "Headache"; // Постійний головний біль.
 DIR_con_players = createHashMapFromArray [
 	// DiRaven
 	["76561197999599845", [
-		// DIR_con_car_driver, 
 		DIR_con_medic,
 		DIR_con_doctor,
 		DIR_con_engineer,
