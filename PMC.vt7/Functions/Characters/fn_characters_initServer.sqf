@@ -1,4 +1,4 @@
-call DIR_fnc_skills_loadConst;
+call DIR_fnc_characters_loadConst;
 
 addMissionEventHandler ["PlayerConnected", {
 	params ["", "_uid", "_name", "", "_owner"];

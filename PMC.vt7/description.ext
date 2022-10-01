@@ -32,12 +32,12 @@ class CfgFunctions
 
 			class world_stripUnitRandom {};
 		};
-		class Skills
+		class Characters
 		{
-			class skills_handleVehicleSeatEntered {};
-			class skills_initServer {};
-			class skills_initPlayerLocal {};
-			class skills_loadConst {};
+			class characters_handleVehicleSeatEntered {};
+			class characters_initServer {};
+			class characters_initPlayerLocal {};
+			class characters_loadConst {};
 		};
 	};
 };

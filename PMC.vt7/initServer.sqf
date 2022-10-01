@@ -1,2 +1,2 @@
 call DIR_fnc_world_initServer;
-call DIR_fnc_skills_initServer;
+call DIR_fnc_characters_initServer;
