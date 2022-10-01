@@ -26,7 +26,6 @@ DIR_con_players = createHashMapFromArray [
 		DIR_con_firearms,
 		DIR_con_car_driver,
 		DIR_con_car_gunner,
-		DIR_con_headache,
 		""
 	]],
 	// ASADA
