@@ -82,6 +82,20 @@ DIR_con_players = createHashMapFromArray [
 		""
 	]],
 
+	// Butcher
+	["76561198151032070", [
+		DIR_con_car_driver,
+		DIR_con_firearms,
+		""
+	]],
+
+	// ch_yaroslav
+	["76561198154733916", [
+		DIR_con_car_driver,
+		DIR_con_firearms,
+		""
+	]],
+
 	// NewPlayer
 	["NewPlayerSteamId", [
 		DIR_con_car_driver,
