@@ -589,6 +589,13 @@ cba_optics_usePipOptics = true;
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
+// DevourerKing Common
+dev_cba_damageMultiplier = 1;
+dev_cba_friendly = "[""HeadlessClient_F"", ""VirtualCurator_F"", ""B_VirtualCurator_F"", ""O_VirtualCurator_F"", ""I_VirtualCurator_F"", ""C_VirtualCurator_F""]";
+force dev_cba_friendlySide = false;
+force dev_cba_killswitch = false;
+force dev_zombie_deleteWeapon = true;
+
 // Diwako Stalker Like Anomalies
 force ANOMALY_DEBUG = false;
 force ANOMALY_DETECTION_RANGE = 20;
@@ -632,7 +639,7 @@ diwako_dui_nametags_customRankStyle = "[[""PRIVATE"", ""CORPORAL"", ""SERGEANT""
 diwako_dui_nametags_deadColor = [0.2, 0.2, 0.2, 1];
 force diwako_dui_nametags_deadRenderDistance = 3.5;
 diwako_dui_nametags_drawRank = true;
-diwako_dui_nametags_enabled = true;
+force diwako_dui_nametags_enabled = false;
 diwako_dui_nametags_enableFOVBoost = true;
 diwako_dui_nametags_enableOcclusion = true;
 diwako_dui_nametags_fadeInTime = 0.05;
@@ -774,6 +781,130 @@ force ace_map_gestures_maxRangeCamera = 14;
 ace_map_gestures_nameTextColor = [0.2, 0.2, 0.2, 0.3];
 force ace_map_gestures_onlyShowFriendlys = false;
 
+// Necroplague
+force dev_cba_infection = true;
+dev_cba_infection_prolongTime = 900;
+dev_cba_infection_resurrectAmugusChance = 0;
+dev_cba_infection_resurrectParasiteChance = 0.1;
+dev_cba_infection_resurrectTime = "[25, 30, 35]";
+force dev_cba_infection_resurrectWebknight = false;
+force dev_cba_infection_resurrectZombie = true;
+dev_cba_infection_totalTime = 180;
+
+// Necroplague - Infected
+dev_zombie_attack_damageMn = 0.125;
+dev_zombie_attack_damageVeh = 0.001;
+dev_zombie_attack_launchVeh = "[0, 1, 1]";
+dev_zombie_attack_reachMan = 3.5;
+dev_zombie_attack_reachVeh = 8;
+dev_zombie_attack_timeout = 0.5;
+dev_zombie_distance_agro = 50;
+dev_zombie_distance_hunt = 100;
+dev_zombie_distance_max = 500;
+dev_zombie_distance_roam = 75;
+force dev_zombie_greenEyes = true;
+dev_zombie_head_caliber = 9;
+dev_zombie_head_chance = 0.5;
+dev_zombie_health = 1;
+dev_zombie_infectionChance = 0.5;
+force dev_zombie_uniformFix = false;
+force dev_zombie_useGlasses = false;
+force dev_zombie_useIdentity = true;
+
+// Necroplague - Spitter
+dev_toxmut_attack_damageMan = 0.3;
+dev_toxmut_attack_damageManSpit = 0.5;
+dev_toxmut_attack_damageVeh = 0.01;
+dev_toxmut_attack_launchVeh = "[0, 1, 0.1]";
+dev_toxmut_attack_reachMan = 3.5;
+dev_toxmut_attack_reachSpit = 30;
+dev_toxmut_attack_reachVeh = 8;
+dev_toxmut_attack_specialChance = 0.5;
+dev_toxmut_attack_timeout = 0.5;
+dev_toxmut_attack_timeoutSpit = 15;
+dev_toxmut_distance_agro = 75;
+dev_toxmut_distance_hunt = 300;
+dev_toxmut_distance_max = 1000;
+dev_toxmut_distance_roam = 75;
+dev_toxmut_health = 1;
+
+// Necroplague - Stalker
+dev_form939_attack_damageMan = 0.5;
+dev_form939_attack_damageVeh = 0.01;
+dev_form939_attack_launchVeh = "[0, 1, 1]";
+dev_form939_attack_psychChance = 0.1;
+dev_form939_attack_psychDuration = 15;
+dev_form939_attack_psychTimeout = 30;
+dev_form939_attack_reachMan = 5;
+dev_form939_attack_reachVeh = 8;
+dev_form939_attack_timeout = 0.5;
+dev_form939_distance_agro = 100;
+dev_form939_distance_hunt = 1400;
+dev_form939_distance_max = 1500;
+dev_form939_distance_roam = 75;
+dev_form939_health = 0.11;
+
+// Necroplague - The Bully
+dev_asymhuman_attack_bigArmChance = 0.5;
+dev_asymhuman_attack_damageMan = 0.5;
+dev_asymhuman_attack_damageVeh = 0.2;
+dev_asymhuman_attack_infectionChance = 0.5;
+dev_asymhuman_attack_launchMan = "[0, 6, 5]";
+dev_asymhuman_attack_launchVeh = "[0, 10, 5]";
+dev_asymhuman_attack_reachMan = 3.5;
+dev_asymhuman_attack_reachVeh = 8;
+dev_asymhuman_attack_timeout = 0.5;
+dev_asymhuman_distance_agro = 75;
+dev_asymhuman_distance_hunt = 300;
+dev_asymhuman_distance_max = 1000;
+dev_asymhuman_distance_roam = 75;
+dev_asymhuman_health = 1;
+
+// Necroplague - The Hivemind
+dev_hivemind_hallucinate2Distance = 50;
+dev_hivemind_hallucinateProbabilityClose = 20;
+dev_hivemind_hallucinateProbabilityFar = 20;
+dev_hivemind_health = 0.2;
+dev_hivemind_maxCooldown = 40;
+dev_hivemind_maxDistance = 150;
+dev_hivemind_minCooldown = 15;
+dev_hivemind_suicideTime = 180;
+
+// Necroplague - The Jumper
+dev_asymhuman_stage2_agroDistance = 50;
+dev_asymhuman_stage2_attack2Timeout = 10;
+dev_asymhuman_stage2_attackDistanceMan = 2.5;
+dev_asymhuman_stage2_attackDistanceVeh = 8;
+dev_asymhuman_stage2_attackTimeout = 1;
+dev_asymhuman_stage2_damageMan = 0.2;
+dev_asymhuman_stage2_damageManAttack2 = 0.3;
+dev_asymhuman_stage2_damageVeh = 0.1;
+dev_asymhuman_stage2_distance_roam = 50;
+dev_asymhuman_stage2_health = 0.1;
+dev_asymhuman_stage2_huntDistance = 75;
+dev_asymhuman_stage2_infectionChance = 0.5;
+dev_asymhuman_stage2_jumpTimeout = 30;
+dev_asymhuman_stage2_maxDistance = 500;
+
+// Necroplague - The Parasite
+dev_parasite_agroDistance = 1000;
+dev_parasite_attack2Timeout = 4;
+dev_parasite_attack3Timeout = 20;
+dev_parasite_attackDistanceMan = 3.5;
+dev_parasite_attackDistanceVeh = 7;
+dev_parasite_attackTimeout = 1;
+dev_parasite_damageMan = 0.2;
+dev_parasite_damageManAttack2 = 0.2;
+dev_parasite_damageManAttack3 = 0.25;
+dev_parasite_damageVeh = 0.001;
+dev_parasite_distance_roam = 75;
+dev_parasite_health = 0.05;
+dev_parasite_huntDistance = 1500;
+dev_parasite_infectionChance = 1;
+dev_parasite_jumpTimeout = 20;
+dev_parasite_maxDistance = 2000;
+dev_parasite_specialChance = 0.1;
+
 // TFAR - Clientside settings
 TFAR_curatorCamEars = false;
 TFAR_default_radioVolume = 6;
@@ -878,6 +1009,8 @@ zen_vision_enableWhiteHot = true;
 zen_vision_enableWhiteHotRedCold = false;
 
 // Zeus Enhanced - faction Filter
+zen_faction_filter_0_dev_groups_east = true;
+zen_faction_filter_0_dev_mutants = true;
 zen_faction_filter_0_OPF_F = true;
 zen_faction_filter_0_OPF_G_F = true;
 zen_faction_filter_0_OPF_GEN_F = true;
@@ -935,6 +1068,8 @@ zen_faction_filter_0_UK3CB_TKA_O = true;
 zen_faction_filter_0_UK3CB_TKC_O = true;
 zen_faction_filter_0_UK3CB_TKM_O = true;
 zen_faction_filter_0_UK3CB_TKP_O = true;
+zen_faction_filter_1_armst_mut = true;
+zen_faction_filter_1_armst_mut_new = true;
 zen_faction_filter_1_b_afouair_cat = true;
 zen_faction_filter_1_b_afougf = true;
 zen_faction_filter_1_b_afougf_2014_main_cat = true;
@@ -951,6 +1086,8 @@ zen_faction_filter_1_BLU_G_F = true;
 zen_faction_filter_1_BLU_GEN_F = true;
 zen_faction_filter_1_BLU_T_F = true;
 zen_faction_filter_1_BLU_W_F = true;
+zen_faction_filter_1_dev_groups_west = true;
+zen_faction_filter_1_dev_mutants = true;
 zen_faction_filter_1_OPF_F = true;
 zen_faction_filter_1_rhs_faction_socom = true;
 zen_faction_filter_1_rhs_faction_usaf = true;
@@ -1003,6 +1140,8 @@ zen_faction_filter_1_UK3CB_TKC_B = true;
 zen_faction_filter_1_UK3CB_TKM_B = true;
 zen_faction_filter_1_UK3CB_TKP_B = true;
 zen_faction_filter_1_UK3CB_UN_B = true;
+zen_faction_filter_2_dev_groups_indep = true;
+zen_faction_filter_2_dev_mutants = true;
 zen_faction_filter_2_IND_C_F = true;
 zen_faction_filter_2_IND_E_F = true;
 zen_faction_filter_2_IND_F = true;
@@ -1066,6 +1205,7 @@ zen_faction_filter_3_c_uadsns_cat = true;
 zen_faction_filter_3_c_uavolunteers_cat = true;
 zen_faction_filter_3_CIV_F = true;
 zen_faction_filter_3_CIV_IDAP_F = true;
+zen_faction_filter_3_dev_mutants = true;
 zen_faction_filter_3_IND_L_F = true;
 zen_faction_filter_3_rds_pol_civ = true;
 zen_faction_filter_3_rds_rus_civ = true;
