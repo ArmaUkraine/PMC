@@ -1,4 +1,5 @@
 // Positive traits.
+DIR_con_starting_gear = "StartingGear"; // Початкове спорядження персонажа.
 DIR_con_medic = "Medic"; // Діагностика + переливання крові.
 DIR_con_doctor = "Doctor"; // Medic + зашивання ран + адреналін, вимагає Medic.
 DIR_con_engineer = "Engineer"; // Польовий ремонт техніки.
@@ -51,5 +52,19 @@ DIR_con_players = createHashMapFromArray [
 		DIR_con_headache,
 		""
 	]],
+	// Maverick
+	["76561198043607416", [
+		DIR_con_starting_gear,
+		DIR_con_ninja,
+		DIR_con_firearms,
+		""
+	]],
+	// Frost
+	["76561198873516945", [
+		DIR_con_car_driver,
+		DIR_con_firearms,
+		""
+	]],
+	// Terminator
 	["", []]
 ];
