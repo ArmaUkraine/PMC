@@ -63,6 +63,10 @@ DIR_con_players = createHashMapFromArray [
 	["76561198873516945", [
 		DIR_con_car_driver,
 		DIR_con_firearms,
+		DIR_con_medic,
+		// Зв'язки з місцевими, поліцією та уміння налагоджувати контакт.
+
+		DIR_con_headache,
 		""
 	]],
 	// Terminator
