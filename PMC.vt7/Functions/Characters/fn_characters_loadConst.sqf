@@ -38,7 +38,7 @@ DIR_con_players = createHashMapFromArray [
 	// FarinFore
 	["76561198279755835", [
 		DIR_con_car_driver,
-		DIR_con_engineer,
+		DIR_con_ninja,
 		DIR_con_firearms,
 		""
 	]],
