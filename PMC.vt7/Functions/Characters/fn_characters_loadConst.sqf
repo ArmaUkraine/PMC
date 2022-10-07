@@ -96,6 +96,13 @@ DIR_con_players = createHashMapFromArray [
 		""
 	]],
 
+	// Олесь
+	["76561199013504408", [
+		DIR_con_car_driver,
+		DIR_con_firearms,
+		""
+	]],
+
 	// NewPlayer
 	["NewPlayerSteamId", [
 		DIR_con_car_driver,
