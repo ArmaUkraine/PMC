@@ -134,7 +134,7 @@ class CfgGradPersistence {
     saveUnits = 0; // Don't save.
     saveVehicles = 2; // Save all.
     saveContainers = 2; // Save all.
-    saveStatics = 3; // Save all except editor-placed.
+    saveStatics = 0; // Don't save.
     saveGradFortificationsStatics = 0; // Don't save.
     saveMarkers = 3; // Save all except editor-placed.
     saveTasks = 0; // Don't save.
