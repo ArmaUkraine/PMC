@@ -1,67 +1,76 @@
-call DIR_fnc_characters_loadConst;
+// default character perks.
+["Car-driver", "Motorcycle-driver"] call DIR_fnc_perks_driver; // driving cars
+// firearms coef is 1 by default
 
-// Traits.
-private _traits = DIR_con_players get getPlayerUID player;
-if (!isNil "_traits") then {
-	// =========== Positive
+// Initialize driving limitations.
+player addEventHandler ["GetInMan", {
+	params ["_unit"];
+	_unit call DIR_fnc_perks_handleVehicleSeatEntered;
+}];
+player addEventHandler ["SeatSwitchedMan", {
+	params ["_unit1", "_unit2"];
+	_unit1 call DIR_fnc_perks_handleVehicleSeatEntered;
+	_unit2 call DIR_fnc_perks_handleVehicleSeatEntered;
+}];
 
-	// Medic and doctor.
-	if (DIR_con_medic in _traits) then {
-		player setUnitTrait ["medic", true];
-		player setVariable ["ace_medical_medicclass", 1, true];
+switch (getPlayerUID player) do
+{
+	// DiRaven
+	case "76561197999599845": {
+		call DIR_fnc_perks_medic;
+		call DIR_fnc_perks_doctor;
+
+		call DIR_fnc_perks_engineer;
+		call DIR_fnc_perks_advancedEngineer;
+		call DIR_fnc_perks_explosiveSpecialist;
+
+		// call DIR_fnc_perks_headache;
+		call DIR_fnc_perks_ninja;
+		// [200] call DIR_fnc_perks_firearms;
+		// [] call DIR_fnc_perks_driver;
 	};
-	if (DIR_con_doctor in _traits) then {
-		player setUnitTrait ["medic", true];
-		player setVariable ["ace_medical_medicclass", 2, true];
+	// ASADA
+	case "76561198130468709": {
+		call DIR_fnc_perks_medic;
+		call DIR_fnc_perks_doctor;
+		[] call DIR_fnc_perks_driver;
 	};
-
-	// Engineer and advanced engineer..
-	if (DIR_con_engineer in _traits) then {
-		player setUnitTrait ["engineer", true];
-		player setVariable ["ace_isengineer", 1, true];
+	// FarinFore
+	case "76561198279755835": {
+		call DIR_fnc_perks_ninja;
 	};
-	if (DIR_con_advanced_engineer in _traits) then {
-		player setUnitTrait ["engineer", true];
-		player setVariable ["ace_isengineer", 2, true];
+	// Trava
+	case "76561198797829439": {
+		call DIR_fnc_perks_engineer;
+		call DIR_fnc_perks_advancedEngineer;
+
+		call DIR_fnc_perks_headache,
 	};
-
-	// Explosive specialist.
-	if (DIR_con_exlosive_specialist in _traits) then {
-		player setUnitTrait ["explosiveSpecialist", true];
+	// Maverick
+	case "76561198043607416": {
+		// Starting gear.
+		call DIR_fnc_perks_ninja;
 	};
+	// Frost
+	case "76561198873516945": {
+		call DIR_fnc_perks_medic;
+		// Зв'язки з місцевими, поліцією та уміння налагоджувати контакт.
+		[2] call DIR_fnc_perks_firearms;
 
-	// vehicles.
-	player addEventHandler ["GetInMan", {
-		params ["_unit"];
-		_unit call DIR_fnc_characters_handleVehicleSeatEntered;
-	}];
-	player addEventHandler ["SeatSwitchedMan", {
-		params ["_unit1", "_unit2"];
-		_unit1 call DIR_fnc_characters_handleVehicleSeatEntered;
-		_unit2 call DIR_fnc_characters_handleVehicleSeatEntered;
-	}];
-
-	// Ninja.
-	if (DIR_con_ninja in _traits) then {
-		player setUnitTrait ["camouflageCoef", 0.5];
-		player setUnitTrait ["audibleCoef", 0.5];
+		call DIR_fnc_perks_headache,
 	};
+	// illya
+	case "76561199126893318": {};
+	// Devstor
+	case "76561199239995092": {};
+	// Butcher
+	case "76561198151032070": {};
+	// ch_yaroslav
+	case "76561198154733916": {};
+	// Олесь
+	case "76561199013504408": {};
 
-	// Firearms.
-	if (!(DIR_con_firearms in _traits)) then {
-		player setCustomAimCoef 200;
-		player setUnitRecoilCoefficient 200;
+	default {
+		endMission "Whitelist";
 	};
-
-	// =========== Negative
-
-	// Headache.
-	if (DIR_con_headache in _traits) then {
-		[]spawn {
-			while { true } do {
-				[player, 0.15, "Head", "punch"] call ace_medical_fnc_addDamageToUnit;
-				sleep (random 3600 + 1800); // Wait for 30-90 minutes.
-			};
-		};
-	};
-}
+};

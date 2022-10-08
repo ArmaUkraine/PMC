@@ -1,2 +1,1 @@
 call DIR_fnc_world_initServer;
-call DIR_fnc_characters_initServer;

@@ -6,5 +6,5 @@
 	};
 };
 
-// Remove magazines on entity killed.
-// addMissionEventHandler ["EntityKilled", DIR_fnc_world_stripUnitRandom];
+// Remove some items on entity killed.
+addMissionEventHandler ["EntityKilled", DIR_fnc_world_stripUnitRandom];

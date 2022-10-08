@@ -34,10 +34,20 @@ class CfgFunctions
 		};
 		class Characters
 		{
-			class characters_handleVehicleSeatEntered {};
-			class characters_initServer {};
 			class characters_initPlayerLocal {};
-			class characters_loadConst {};
+		};
+		class Perks
+		{
+			class perks_handleVehicleSeatEntered {};
+			class perks_advancedEngineer {};
+			class perks_doctor {};
+			class perks_engineer {};
+			class perks_explosiveSpecialist {};
+			class perks_headache {};
+			class perks_medic {};
+			class perks_ninja  {};
+			class perks_firearms {};
+			class perks_driver {};
 		};
 	};
 };

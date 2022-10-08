@@ -1,0 +1,1 @@
+player setUnitTrait ["explosiveSpecialist", true];
