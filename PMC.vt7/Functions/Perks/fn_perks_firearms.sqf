@@ -1,4 +1,2 @@
-params ['_coef'];
-
-player setCustomAimCoef _coef;
-player setUnitRecoilCoefficient _coef;
+player setCustomAimCoef _this;
+player setUnitRecoilCoefficient _this;

@@ -43,7 +43,7 @@ class CfgFunctions
 			class perks_doctor {};
 			class perks_engineer {};
 			class perks_explosiveSpecialist {};
-			class perks_headache {};
+			class perks_ache {};
 			class perks_medic {};
 			class perks_ninja  {};
 			class perks_firearms {};
