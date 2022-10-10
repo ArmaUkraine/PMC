@@ -24,7 +24,7 @@ switch (getPlayerUID player) do
 		call DIR_fnc_perks_advancedEngineer;
 		call DIR_fnc_perks_explosiveSpecialist;
 
-		// "head" call DIR_fnc_perks_ache;
+		// "LeftArm" call DIR_fnc_perks_ache;
 		call DIR_fnc_perks_ninja;
 		// 200 call DIR_fnc_perks_firearms;
 		// [] call DIR_fnc_perks_driver;
@@ -44,13 +44,13 @@ switch (getPlayerUID player) do
 		call DIR_fnc_perks_engineer;
 		call DIR_fnc_perks_advancedEngineer;
 
-		"head" call DIR_fnc_perks_ache;
+		"Head" call DIR_fnc_perks_ache;
 	};
 	// Maverick
 	case "76561198043607416": {
 		// Starting gear.
 		call DIR_fnc_perks_ninja;
-		"hand_l" call DIR_fnc_perks_ache;
+		"LeftArm" call DIR_fnc_perks_ache;
 	};
 	// Frost
 	case "76561198873516945": {
@@ -58,7 +58,7 @@ switch (getPlayerUID player) do
 		// Зв'язки з місцевими, поліцією та уміння налагоджувати контакт.
 		2 call DIR_fnc_perks_firearms;
 
-		"head" call DIR_fnc_perks_ache;
+		"Head" call DIR_fnc_perks_ache;
 	};
 	// illya
 	case "76561199126893318": {};
