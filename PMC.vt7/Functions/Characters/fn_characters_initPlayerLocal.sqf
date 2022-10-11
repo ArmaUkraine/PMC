@@ -69,7 +69,9 @@ switch (getPlayerUID player) do
 	// ch_yaroslav
 	case "76561198154733916": {};
 	// Олесь
-	case "76561199013504408": {};
+	case "76561199013504408": {
+		call DIR_fnc_perks_explosiveSpecialist;
+	};
 
 	default {
 		endMission "Whitelist";
