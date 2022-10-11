@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=678;
+		nextID=690;
 	};
 	class Camera
 	{
-		pos[]={1377.6329,164.89059,16259.209};
-		dir[]={0.15818956,-0.8777985,-0.45238501};
-		up[]={0.2897374,0.47908831,-0.82857949};
-		aside[]={-0.94404662,1.4151447e-006,-0.33011249};
+		pos[]={1427.199,47.304855,16237.783};
+		dir[]={-0.43182188,-0.57473016,-0.69528657};
+		up[]={-0.30325171,0.81831723,-0.48827386};
+		aside[]={-0.84957999,9.8883174e-007,0.52765036};
 	};
 };
 binarizationWanted=0;
@@ -530,7 +530,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -547,7 +547,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -29617,7 +29617,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={1268.3004,40.519085,16131.527};
-						angles[]={0,4.6430688,-0};
+						angles[]={0,4.6430688,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -29733,7 +29733,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={1269.2878,40.551498,16130.286};
-						angles[]={0,2.9187891,-0};
+						angles[]={0,2.9187891,0};
 					};
 					side="Civilian";
 					flags=5;

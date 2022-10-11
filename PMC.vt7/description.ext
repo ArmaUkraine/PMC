@@ -28,8 +28,9 @@ class CfgFunctions
 	{
 		class World
 		{
+			class world_fuelConsumption {};
+			class world_initPlayerLocal {};
 			class world_initServer {};
-
 			class world_stripUnitRandom {};
 		};
 		class Characters
