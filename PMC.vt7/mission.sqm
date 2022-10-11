@@ -13,7 +13,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=8605;
+		nextID=8606;
 	};
 	class MarkerIDProvider
 	{
@@ -25,10 +25,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1427.199,47.304855,16237.783};
-		dir[]={-0.43182188,-0.57473016,-0.69528657};
-		up[]={-0.30325171,0.81831723,-0.48827386};
-		aside[]={-0.84957999,9.8883174e-007,0.52765036};
+		pos[]={6100.521,29.965824,17913.238};
+		dir[]={-0.23094863,-0.31091025,-0.92199188};
+		up[]={-0.075552106,0.95043093,-0.30161682};
+		aside[]={-0.97006762,5.7119178e-007,0.24299008};
 	};
 };
 binarizationWanted=0;
@@ -122,13 +122,14 @@ addons[]=
 	"rds_a2port_cman",
 	"UK3CB_Factions_LFR_B",
 	"A3_Characters_F_Enoch",
-	"UK3CB_Factions_LSM_B"
+	"UK3CB_Factions_LSM_B",
+	"UK3CB_Factions_Vehicles_Antonov_An2"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=54;
+		items=55;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -484,6 +485,13 @@ class AddonsMetaData
 		{
 			className="UK3CB_Factions_LSM";
 			name="3CB Factions - LSM";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item54
+		{
+			className="UK3CB_Factions_Vehicles_Antonov_An2";
+			name="3CB Factions - Vehicles";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
@@ -955,7 +963,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=260;
+		items=261;
 		class Item0
 		{
 			dataType="Logic";
@@ -12567,6 +12575,7 @@ class Mission
 					};
 					id=3818;
 					type="Land_Bandage_F";
+					atlOffset=0.021903992;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12603,6 +12612,7 @@ class Mission
 					};
 					id=3819;
 					type="Land_Bandage_F";
+					atlOffset=0.021903992;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12639,6 +12649,7 @@ class Mission
 					};
 					id=3820;
 					type="Land_Bandage_F";
+					atlOffset=0.021903992;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12947,7 +12958,7 @@ class Mission
 				};
 			};
 			id=3808;
-			atlOffset=5.7212658;
+			atlOffset=5.7213402;
 		};
 		class Item33
 		{
@@ -17698,7 +17709,7 @@ class Mission
 					};
 					id=4510;
 					type="Land_Bandage_F";
-					atlOffset=5.7220459e-005;
+					atlOffset=0.022090912;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17734,7 +17745,7 @@ class Mission
 					};
 					id=4511;
 					type="Land_Bandage_F";
-					atlOffset=6.4849854e-005;
+					atlOffset=0.022094727;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17770,7 +17781,7 @@ class Mission
 					};
 					id=4512;
 					type="Land_Bandage_F";
-					atlOffset=6.1035156e-005;
+					atlOffset=0.022090912;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18042,7 +18053,7 @@ class Mission
 				};
 			};
 			id=4518;
-			atlOffset=6.5158234;
+			atlOffset=6.5159721;
 		};
 		class Item63
 		{
@@ -29960,6 +29971,54 @@ class Mission
 					};
 				};
 				nAttributes=3;
+			};
+		};
+		class Item260
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6085.416,25.119217,17905.842};
+				angles[]={0.018203784,5.1199579,0.027296949};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				health=0.31429404;
+				dynamicSimulation=1;
+			};
+			id=8605;
+			type="UK3CB_C_Antonov_An2";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[2]],[[],[]],[[],[]],[[""B_Parachute""],[15]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ENH_AdvancedDamage";
+					expression="if (local _this) then {parseSimpleArray _value params ['_hitpoints', '_damage']; {if ((_damage # _forEachIndex) == 0) then {continue}; _this setHitPointDamage [_x, _damage # _forEachIndex, false]} forEach _hitpoints}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[""hitglass1"",""hitglass2"",""hitglass3"",""hitglass4"",""hithull"",""hitengine"",""hitavionics"",""hitfuel"",""hitfuel2"",""hitlaileron_link"",""hitlaileron_1"",""hitlaileron_2"",""hitlaileron"",""hitraileron_link"",""hitraileron_1"",""hitraileron_2"",""hitraileron"",""hitcontrolrear"",""hitlcrudder"",""hitlcelevator"",""hitrelevator"",""hitturret"",""hitgun"",""#l svetlo"",""#p svetlo"",""#i svetlo"",""#i svetlo 2""],[0.69385,0.549906,0.419802,0.303539,0.771359,0.48347,0,0.37828,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]";
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 	};
