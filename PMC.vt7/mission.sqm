@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=690;
+		nextID=702;
 	};
 	class Camera
 	{
-		pos[]={6100.521,29.965824,17913.238};
-		dir[]={-0.23094863,-0.31091025,-0.92199188};
-		up[]={-0.075552106,0.95043093,-0.30161682};
-		aside[]={-0.97006762,5.7119178e-007,0.24299008};
+		pos[]={477.99603,29.578901,17005.684};
+		dir[]={-0.30006909,-0.67636055,0.67268425};
+		up[]={-0.27553928,0.73656756,0.61769378};
+		aside[]={0.91326129,3.6205165e-008,0.407386};
 	};
 };
 binarizationWanted=0;
@@ -12575,7 +12575,6 @@ class Mission
 					};
 					id=3818;
 					type="Land_Bandage_F";
-					atlOffset=0.021903992;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12612,7 +12611,6 @@ class Mission
 					};
 					id=3819;
 					type="Land_Bandage_F";
-					atlOffset=0.021903992;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12649,7 +12647,6 @@ class Mission
 					};
 					id=3820;
 					type="Land_Bandage_F";
-					atlOffset=0.021903992;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12958,7 +12955,7 @@ class Mission
 				};
 			};
 			id=3808;
-			atlOffset=5.7213402;
+			atlOffset=5.7212658;
 		};
 		class Item33
 		{
@@ -17709,7 +17706,7 @@ class Mission
 					};
 					id=4510;
 					type="Land_Bandage_F";
-					atlOffset=0.022090912;
+					atlOffset=5.7220459e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17745,7 +17742,7 @@ class Mission
 					};
 					id=4511;
 					type="Land_Bandage_F";
-					atlOffset=0.022094727;
+					atlOffset=6.4849854e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17781,7 +17778,7 @@ class Mission
 					};
 					id=4512;
 					type="Land_Bandage_F";
-					atlOffset=0.022090912;
+					atlOffset=6.1035156e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18053,7 +18050,7 @@ class Mission
 				};
 			};
 			id=4518;
-			atlOffset=6.5159721;
+			atlOffset=6.5158234;
 		};
 		class Item63
 		{
@@ -29990,6 +29987,7 @@ class Mission
 			};
 			id=8605;
 			type="UK3CB_C_Antonov_An2";
+			atlOffset=-0.0024108887;
 			class CustomAttributes
 			{
 				class Attribute0
