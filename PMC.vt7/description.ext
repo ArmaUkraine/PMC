@@ -143,8 +143,8 @@ class CfgGradPersistence {
     playerWaitCondition = "true";
 
     saveUnits = 0; // Don't save.
-    saveVehicles = 3; // Save all except editor-placed.
-    saveContainers = 3; // Save all except editor-placed.
+    saveVehicles = 2; // Save all.
+    saveContainers = 2; // Save all.
     saveStatics = 0; // Don't save.
     saveGradFortificationsStatics = 0; // Don't save.
     saveMarkers = 3; // Save all except editor-placed.
