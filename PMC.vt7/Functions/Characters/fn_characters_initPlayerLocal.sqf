@@ -76,6 +76,8 @@ switch (getPlayerUID player) do
 	case "76561198179815271": {};
 	// Lisovyk
 	case "76561198090227690": {};
+	// Buncha
+	case "76561198966604821": {};
 
 	default {
 		endMission "Whitelist";
